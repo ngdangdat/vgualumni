@@ -1,0 +1,165 @@
+{% extends "user_profile/user.html" %}
+{% import "macros.html" as macros %}
+<!-- user_email_subscriptions.html -->
+{% block profilesection %}
+    {% trans %}subscriptions{% endtrans %}
+{% endblock %}
+{% block usercontent %}
+    <p class="message">
+{% trans %}<span class='big strong'>Adjust frequency of email updates.</span> Receive updates on interesting content by email. If you do not wish to receive emails - select 'no email' on all items below.<br/>Updates are only sent when there is any new activity on selected items.{% endtrans %}</p>
+    {% if settings.MULTILINGUAL %}
+    <p class="message">{% trans %}Note: language settings also apply to the email subscriptions{% endtrans %}</p>
+    {% endif %}
+    <div>
+    {% if action_status %}
+        <p class="action-status"><span>{{action_status}}</span></p>
+    {% endif %}
+    <form method="post" action="">{% csrf_token %}
+        <table class="form-as-table ab-subscr-form">
+        <tbody>
+            <tr>
+                <th></th>
+                <td>{% trans %}instantly{% endtrans %}</td>
+                <td>{% trans %}daily{% endtrans %}</td>
+                <td>{% trans %}weekly{% endtrans %}</td>
+                <td>{% trans %}never{% endtrans %}</td>
+            </tr>
+            <tr>
+                <th>{{ email_feeds_form.asked_by_me.label }}</th>
+                <td>
+                    <input {% if email_feeds_form.asked_by_me.value() == 'i' %}checked="checked"{% endif %}
+                        id="id_asked_by_me_0" name="asked_by_me" type="radio" value="i">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.asked_by_me.value() == 'd' %}checked="checked"{% endif %}
+                        id="id_asked_by_me_1" name="asked_by_me" type="radio" value="d">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.asked_by_me.value() == 'w' %}checked="checked"{% endif %}
+                        id="id_asked_by_me_2" name="asked_by_me" type="radio" value="w">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.asked_by_me.value() == 'n' %}checked="checked"{% endif %}
+                        id="id_asked_by_me_3" name="asked_by_me" type="radio" value="n">
+                </td>
+            </tr> 
+            <tr>
+                <th>{{ email_feeds_form.answered_by_me.label }}</th>
+                <td>
+                    <input {% if email_feeds_form.answered_by_me.value() == 'i' %}checked="checked"{% endif %}
+                        id="id_answered_by_me_0" name="answered_by_me" type="radio" value="i">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.answered_by_me.value() == 'd' %}checked="checked"{% endif %}
+                        id="id_answered_by_me_1" name="answered_by_me" type="radio" value="d">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.answered_by_me.value() == 'w' %}checked="checked"{% endif %}
+                        id="id_answered_by_me_2" name="answered_by_me" type="radio" value="w">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.answered_by_me.value() == 'n' %}checked="checked"{% endif %}
+                        id="id_answered_by_me_3" name="answered_by_me" type="radio" value="n">
+                </td>
+            </tr> 
+            <tr>
+                <th>{{ email_feeds_form.individually_selected.label }}</th>
+                <td>
+                    <input {% if email_feeds_form.individually_selected.value() == 'i' %}checked="checked"{% endif %}
+                        id="id_individually_selected_0" name="individually_selected" type="radio" value="i">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.individually_selected.value() == 'd' %}checked="checked"{% endif %}
+                        id="id_individually_selected_1" name="individually_selected" type="radio" value="d">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.individually_selected.value() == 'w' %}checked="checked"{% endif %}
+                        id="id_individually_selected_2" name="individually_selected" type="radio" value="w">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.individually_selected.value() == 'n' %}checked="checked"{% endif %}
+                        id="id_individually_selected_3" name="individually_selected" type="radio" value="n">
+                </td>
+            </tr> 
+            <tr>
+                <th>{{ email_feeds_form.all_questions.label }}</th>
+                <td>
+                    <input {% if email_feeds_form.all_questions.value() == 'i' %}checked="checked"{% endif %}
+                        id="id_all_questions_0" name="all_questions" type="radio" value="i">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.all_questions.value() == 'd' %}checked="checked"{% endif %}
+                        id="id_all_questions_1" name="all_questions" type="radio" value="d">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.all_questions.value() == 'w' %}checked="checked"{% endif %}
+                        id="id_all_questions_2" name="all_questions" type="radio" value="w">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.all_questions.value() == 'n' %}checked="checked"{% endif %}
+                        id="id_all_questions_3" name="all_questions" type="radio" value="n">
+                </td>
+            </tr> 
+            <tr>
+                <th>{{ email_feeds_form.mentions_and_comments.label }}</th>
+                <td>
+                    <input {% if email_feeds_form.mentions_and_comments.value() == 'i' %}checked="checked"{% endif %}
+                        id="id_mentions_and_comments_0" name="mentions_and_comments" type="radio" value="i">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.mentions_and_comments.value() == 'd' %}checked="checked"{% endif %}
+                        id="id_mentions_and_comments_1" name="mentions_and_comments" type="radio" value="d">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.mentions_and_comments.value() == 'w' %}checked="checked"{% endif %}
+                        id="id_mentions_and_comments_2" name="mentions_and_comments" type="radio" value="w">
+                </td>
+                <td>
+                    <input {% if email_feeds_form.mentions_and_comments.value() == 'n' %}checked="checked"{% endif %}
+                        id="id_mentions_and_comments_3" name="mentions_and_comments" type="radio" value="n">
+                </td>
+            </tr> 
+        </tbody>
+        </table>
+
+        <table class='form-as-table ab-tag-filter-form'>{{ tag_filter_selection_form }}</table>
+        <div class="submit-row text-align-right">
+            <input type="submit" name="save" value="{% trans %}Update{% endtrans %}"/>&nbsp;
+            <input type="submit" name="stop_email" value="{% trans %}Stop Email{% endtrans %}"/>
+        </div>
+    </form>
+    </div>
+
+    {%if settings.SUBSCRIBED_TAG_SELECTOR_ENABLED %}
+        <h2>{% trans %}Subscribed Tags{% endtrans %}</h2>
+            {{
+                macros.tag_list_widget(
+                    subscribed_tag_names,
+                    deletable = True,
+                    css_class = 'subscribed marked-tags special',
+                )
+            }}
+            <div class="clearfix"></div>
+            <div class="inputs">
+                <input id="subscribedTagInput" autocomplete="off" type="text"/>
+                <input id="subscribedTagAdd" type="submit" value="{% trans %}add{% endtrans%}"/>
+            </div>
+        </div>
+    {%endif%}
+{% endblock %}
+{% block userjs %}
+    <script type='text/javascript'>
+        (function () {
+            var search = new FullTextSearch();
+            askbot['controllers'] = askbot['controllers'] || {};
+            askbot['controllers']['fullTextSearch'] = search;
+            askbot['urls']['mark_subscribed_tag'] = '{% url mark_subscribed_tag %}';
+            askbot['urls']['unmark_tag'] = '{% url unmark_tag %}';
+            askbot['settings']['tag_editor'] = '{{ tag_editor_settings|escapejs }}';
+        })();
+    </script>
+    {% compress js %}
+    <script type='text/javascript' src='{{ "/js/tag_selector.js"|media }}'></script>
+    {% endcompress %}
+{% endblock %}
+<!-- end user_email_subscriptions.html -->

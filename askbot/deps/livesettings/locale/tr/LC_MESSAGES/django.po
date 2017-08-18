@@ -1,0 +1,96 @@
+# Satchmo Translation Package
+# Copyright (C) 2008 Satchmo Project
+# This file is distributed under the same license as the Satchmo package.
+# Selin Çuhadar <selincuhadar@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Satchmo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-10 09:16-0600\n"
+"PO-Revision-Date: 2008-06-09 18:18+0200\n"
+"Last-Translator: Selin Çuhadar <selincuhadar@gmail.com>\n"
+"Language-Team: Turkish <selincuhadar@gmail.com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: deps/livesettings/models.py:107 deps/livesettings/models.py:153
+msgid "Site"
+msgstr ""
+
+#: deps/livesettings/values.py:80
+msgid "Main"
+msgstr ""
+
+#: deps/livesettings/values.py:141
+msgid "Base Settings"
+msgstr "Temel Ayarlar"
+
+#: deps/livesettings/values.py:257 deps/livesettings/values.py:291
+msgid "Default value: "
+msgstr "Geçerli Değer:"
+
+#: deps/livesettings/values.py:259
+#, python-format
+msgid "Default value: %s"
+msgstr "Geçerli Değer: %s"
+
+#: deps/livesettings/values.py:765
+#, python-format
+msgid "Allowed image file types are %(types)s"
+msgstr ""
+
+#~ msgid "Default value: \"\""
+#~ msgstr "Geçerli Değer: \"\""
+
+#~ msgid "Home"
+#~ msgstr "Ev"
+
+#~ msgid "Log out"
+#~ msgstr "Oturumu kapa"
+
+#, fuzzy
+#~ msgid "Please correct the error below."
+#~ msgid_plural "Please correct the errors below."
+#~ msgstr[0] ""
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ msgstr[1] ""
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokümentasyon"
+
+#~ msgid "Change password"
+#~ msgstr "Şifreyi değiştir"
+
+#~ msgid "Edit Group Settings"
+#~ msgstr "Grup Ayarlarını Düzenle"
+
+#~ msgid "Settings included in %(name)s."
+#~ msgstr "%(name)s ayarlara dahil edildi."
+
+#~ msgid "You don't have permission to edit values."
+#~ msgstr "Değerleri düzenlemek için gerekli izniniz yok."
+
+#~ msgid "Edit Site Settings"
+#~ msgstr "Site Ayarlarını Düzenle"
+
+#~ msgid "Group settings: %(name)s"
+#~ msgstr "Grup ayarları:  %(name)s"

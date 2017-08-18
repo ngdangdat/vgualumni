@@ -1,0 +1,30 @@
+{% extends "one_column_body.html" %}
+{% block title %}{% trans %}Unsubscribe{% endtrans %}{% endblock %}
+{% block content %}
+{% set app_name = settings.APP_SHORT_NAME %}
+<h1 class="section-title">{% trans %}Want to unsubcribe {{ verified_email }} from {{ app_name }}?{% endtrans %}</h1>
+{% if result == 'success' %}{# success|ready|bad_input|bad_key|key_resent|error #}
+    <p>{% trans %}Successfully unsubscribed.{% endtrans %}</p>
+{% elif result == 'ready' %}
+    <form action={% url 'user_unsubscribe' %} method="post">{% csrf_token %}
+        {{ unsubscribe_form.key }}{{ unsubscribe_form.email }}
+        <input type="submit" value="{% trans %}Yes, unsubscribe{% endtrans %}" />
+    </form>
+{% elif result == 'bad_input' %}
+    {% set link_url = 'user_unsubscribe'|url() %}
+    <p>
+        {% trans %}Bad unsubscribe link.{% endtrans %}
+        {% trans %}Expected format is {{ link_url }}?key=&lt;unsubscribe key&gt;&amp;email=&lt;email address&gt;{% endtrans %}
+    </p>
+{% elif result == 'bad_key' %}
+    <p>{% trans %}The unsubscribe key sent with the link had expired.{% endtrans %}</p>
+    <form action="{% url 'user_unsubscribe' %}" method="post">{% csrf_token %}
+        {{ unsubscribe_form.key }}{{ unsubscribe_form.email }}
+        <input type="submit" name="resend_key" value="{% trans %}Resend unsubscribe link{% endtrans %}" />
+    </form>
+{% elif result == 'key_resent' %}
+    <p>{% trans %}Unsubscribe link resent. Please check your email.{% endtrans %}</p>
+{% elif result == 'error' %}
+    <p>{% trans %}Sorry, there was an unexpected error.{% endtrans %}</p>
+{% endif %}
+{% endblock %}

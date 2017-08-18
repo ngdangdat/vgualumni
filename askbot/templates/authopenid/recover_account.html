@@ -1,0 +1,13 @@
+{% extends "one_column_body.html" %}
+{% block title %}{% trans %}Recover account{% endtrans %}{% endblock %}
+{% block body_class %}account-recovery-page{% endblock %}
+{% block content %}
+    <h1 class="section-title">
+        {% if message %}
+            {{ message }}
+        {% else %}
+            {% trans %}Recover account{% endtrans %}
+        {% endif %}
+    </h1>
+    {% include "authopenid/account_recovery_form.html" %}
+{% endblock %}

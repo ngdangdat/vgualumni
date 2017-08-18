@@ -1,0 +1,7 @@
+<script type="text/javascript">
+    askbot['settings']['tinyMCEPlugins'] = JSON.parse('{{ settings.TINYMCE_PLUGINS|as_json }}');
+    var django = django || {};
+    django.jQuery = django.jQuery || jQuery;
+</script>
+{{ tinymce.media }}
+{{ tinymce.render('junk', '', attrs={'id': 'junk', 'style': 'display: none'}) }}

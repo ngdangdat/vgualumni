@@ -1,0 +1,13 @@
+<!-- question_edit_tips.html -->
+{% if settings.QUESTION_INSTRUCTIONS %}
+    {{ settings.QUESTION_INSTRUCTIONS|safe }}
+{% else %}
+    <ul>
+        {% if request.user.is_anonymous() and not settings.ALLOW_ASK_UNREGISTERED %}
+        <li class="warning">{% trans %}since you are not logged in right now, you will be asked to sign in or register after making your post{% endtrans %}</li>
+        {% endif %}
+        <li>{{ settings.WORDS_ASK_A_QUESTION_INTERESTING_TO_THIS_COMMUNITY|escape }}</li>
+        <li>{% trans %}provide enough details{% endtrans %}</li>
+        <li>{% trans %}be clear and concise{% endtrans %}</li>
+    </ul>
+{% endif %}

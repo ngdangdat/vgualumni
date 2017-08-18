@@ -1,0 +1,11 @@
+{% extends "two_column_body.html" %}
+<!-- template 500.html -->
+{% block title %}{% spaceless %}{% trans %}Internal server error{% endtrans %}{% endspaceless %}{% endblock %}
+{% block content %}
+<h1>{% trans %}Internal server error{% endtrans %}</h1>
+<p>
+    {% trans %}system error log is recorded, error will be fixed as soon as possible{% endtrans %}<br/>
+    {% trans %}please report the error to the site administrators{% endtrans %}
+</p>
+{% endblock %}
+<!-- end template 500.html -->

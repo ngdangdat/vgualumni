@@ -1,0 +1,21 @@
+{% extends "user_profile/user.html" %}
+{% block profilesection %}
+    {% trans %}languages{% endtrans %}
+{% endblock %}
+{% block usercontent %}
+    <form
+        method="post" 
+        action="{% url user_select_languages view_user.id, view_user.username|slugify %}"
+    >{% csrf_token %}
+        <div class="user-lang-selector">
+            {% if settings.LANGUAGE_MODE == 'user-lang' %}
+                <p class="message">{% trans %}View and subscribe to posts in these languages{% endtrans %}</p>
+            {% else %}
+                <p class="message">{% trans %}Subscribe to posts in these languages{% endtrans %}</p>
+            {% endif %}
+            {{ languages_form.languages }}
+            <label for="primary_language_id">{% trans %}My primary language is{% endtrans %}</label>{{ languages_form.primary_language }}
+        </div>
+        <input type="submit" class="select-language" value="{% trans %}Save{% endtrans %}" />
+    </form>
+{% endblock %}

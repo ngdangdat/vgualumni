@@ -1,0 +1,793 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ahmad Harthi <aalharthi@kacst.edu.sa>, 2013
+# Ahmad Khayyat <akhayyat@gmail.com>, 2013
+# husamfarra <husamfarra@gmail.com>, 2013
+# Khaled Menof <kifcaliph@hotmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: askbot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-03 09:49-0600\n"
+"PO-Revision-Date: 2017-03-03 16:06+0000\n"
+"Last-Translator: evgeny <evgeny.fadeev@gmail.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/askbot/askbot/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: media/js/group_messaging.js:132
+msgid "Type a message"
+msgstr ""
+
+#: media/js/group_messaging.js:141
+msgid "Add a recipient"
+msgstr ""
+
+#: media/js/group_messaging.js:171
+msgid "message sent"
+msgstr "تم ارسال الرسالة"
+
+#: media/js/group_messaging.js:187
+msgid ""
+"Did you mean to send your message to muliple users? Use comma instead of "
+"whitespaces"
+msgstr ""
+
+#: media/js/group_messaging.js:191
+msgid "user {{str}} does not exist"
+msgid_plural "users {{str}} do not exist"
+msgstr[0] "لا وجود للمستخدم"
+msgstr[1] "المستخدم {{str}} غير موجود"
+msgstr[2] "المستخدمين {{str}} غير موجودين"
+msgstr[3] "المستخدمين {{str}} غير موجودين"
+msgstr[4] "المستخدمين {{str}} غير موجودين"
+msgstr[5] "المستخدمين {{str}} غير موجودين"
+
+#: media/js/group_messaging.js:198
+msgid "cannot send message to yourself"
+msgstr "لايمكنك ارسال الرسالة لك"
+
+#: media/js/live_search.js:198
+msgid "To see search results, 2 or more characters may be required"
+msgstr "لعرض النتائج ,مطلوب 2حرف أو اكثر  "
+
+#: media/js/live_search.js:220
+msgid "Ask Your Question"
+msgstr "قم بالسؤال هنا من فضلك"
+
+#: media/js/live_search.js:301
+msgid "Sorry, this tag does not exist"
+msgid_plural "Sorry, these tags do not exist"
+msgstr[0] "لا وجود لأية وسوم"
+msgstr[1] "عفواً، هذا الوسم غير موجود"
+msgstr[2] "عفواً، لا وجود لهذين الوسمين"
+msgstr[3] "عفواً، هذة الوسوم غير موجودة"
+msgstr[4] "عفواً، هذة الوسوم غير موجودة"
+msgstr[5] "عفواً، هذة الوسوم غير موجودة"
+
+#: media/js/live_search.js:315
+msgid "Search or ask your question"
+msgstr ""
+
+#: media/js/post.js:28
+msgid "loading..."
+msgstr "تحميل..."
+
+#: media/js/post.js:137 media/js/post.js.c:176 media/js/post.js.c:229
+#: media/js/post.js:253
+msgid "enter > %(length)s character"
+msgid_plural "enter > %(length)s characters"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: media/js/post.js:155 media/js/post.js.c:218
+#, c-format
+msgid "details must have > %s character"
+msgid_plural "details must have > %s characters"
+msgstr[0] "يرجى إدخال %s حرفاً إضافياً على الأقل"
+msgstr[1] "يرجى إدخال %s حرف إضافي على الأقل"
+msgstr[2] "يرجى إدخال %s حرف إضافي على الأقل"
+msgstr[3] "يرجى إدخال %s حرفاً إضافياً على الأقل"
+msgstr[4] "يرجى إدخال %s حرفاً إضافياً على الأقل"
+msgstr[5] "يرجى إدخال %s حرفاً إضافياً على الأقل"
+
+#: media/js/post.js:209 media/js/post.js.c:1457
+msgid "tags cannot be empty"
+msgstr "فضلاً حدد المواضيع (مطلوب)"
+
+#: media/js/post.js:215
+msgid "details are required"
+msgstr "معلومات مطلوبة"
+
+#: media/js/post.js:226
+msgid "enter your question"
+msgstr "اطرح سؤالك"
+
+#: media/js/post.js:250
+msgid "content cannot be empty"
+msgstr "من فضلك أدخل وسماً واحداً على الأقل"
+
+#: media/js/post.js:311
+msgid "Back to the question"
+msgstr "ارجع للسؤل"
+
+#: media/js/post.js:382 media/js/post.js.c:426 media/js/post.js.c:512
+msgid "Load preview"
+msgstr ""
+
+#: media/js/post.js:420
+msgid "Merge"
+msgstr ""
+
+#: media/js/post.js:511 media/js/utils/modal_dialog.js:9
+#: media/js/utils/text_property_editor.js:48
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: media/js/post.js:561
+msgid "draft saved..."
+msgstr "تم حفظ المسودة"
+
+#: media/js/post.js:781
+#, c-format
+msgid "%s follower"
+msgid_plural "%s followers"
+msgstr[0] "%s متابع"
+msgstr[1] "%s متابع"
+msgstr[2] "%s متابعين"
+msgstr[3] "%s متابعين"
+msgstr[4] "%s متابعين"
+msgstr[5] "%s متابع"
+
+#: media/js/post.js:819
+msgid "insufficient privilege"
+msgstr "صلاحيات غير كافية"
+
+#: media/js/post.js:821 media/js/post.js.c:1606
+msgid "please login"
+msgstr "من فضلك الدخول"
+
+#: media/js/post.js:824
+msgid "anonymous users cannot subscribe to questions"
+msgstr "المستخدم المجهول لا يمكنه الإشتراك بالأسئلة"
+
+#: media/js/post.js:825 media/js/post.js.c:1616
+msgid "anonymous users cannot vote"
+msgstr "المستخدم المجهول لا يمكنه التصويت"
+
+#: media/js/post.js:827
+msgid "anonymous users cannot flag offensive posts"
+msgstr "لا يمكن للمستخدمين غير المسجلين الإشارة إلى مشاركة مسيئة"
+
+#: media/js/post.js:828
+msgid "confirm delete"
+msgstr "هل أنت متأكد من هذا الحذف؟"
+
+#: media/js/post.js:829
+msgid "anonymous users cannot delete/undelete"
+msgstr "عذراً، لا يمكن للمستخدمين غير المسجلين حذف أو استعادة المشاركات"
+
+#: media/js/post.js:830
+msgid "post recovered"
+msgstr "تمت استعادة المشاركة!"
+
+#: media/js/post.js:831
+msgid "post deleted"
+msgstr "تم حذف المشاركة"
+
+#: media/js/post.js:1047
+msgid "sorry, you cannot %(accept_own_answer)s"
+msgstr ""
+
+#: media/js/post.js:1101
+msgid "remove flag"
+msgstr "ازالة العلامة"
+
+#: media/js/post.js:1135 media/js/post.js.c:1166
+msgid "flag offensive"
+msgstr "هل أنت متأكد أن هذه المشاركة مسيئة، أو مزعجة، أو تحتوي على إعلانات، أو إشارات مشبوهة، وما إلى ذلك؟"
+
+#: media/js/post.js:1191 media/js/post.js.c:1687
+msgid "undelete"
+msgstr "تأكيد الحذف"
+
+#: media/js/post.js:1195 media/js/post.js.c:1691
+msgid "delete"
+msgstr "تم حذف المشاركة"
+
+#: media/js/post.js:1397 media/js/post.js.c:1635
+msgid "sorry, something is not right here"
+msgstr "عذراً، شيء غير صحيح هنا"
+
+#: media/js/post.js:1865
+msgid "Preview: (hide)"
+msgstr ""
+
+#: media/js/post.js:1866
+msgid "Show preview"
+msgstr ""
+
+#: media/js/post.js:2283
+msgid "add comment"
+msgstr "إضافة تعليق"
+
+#: media/js/post.js:2288
+msgid "save comment"
+msgstr "حفظ التعليق"
+
+#: media/js/post.js:2332
+#, c-format
+msgid "enter at least %s characters"
+msgstr "يرجى إدخال %s حرفاً إضافياً على الأقل"
+
+#: media/js/post.js:2334
+#, c-format
+msgid "enter at least %s more characters"
+msgstr "يرجى إدخال %s حرفاً إضافياً على الأقل"
+
+#: media/js/post.js:2346
+#, c-format
+msgid "%s characters left"
+msgstr "يرجى إدخال %s حرفاً إضافياً على الأقل"
+
+#: media/js/post.js:2348
+msgid "maximum comment length reached"
+msgstr ""
+
+#: media/js/post.js:2451 media/js/post.js.c:3370 media/js/post.js.c:4921
+#: media/js/user/group_adder_widget.js:17 media/js/utils/editable.js:319
+msgid "cancel"
+msgstr "إلغاء"
+
+#: media/js/post.js:2466
+msgid "minor edit (don't send alerts)"
+msgstr "تعديل بسيط (لا ترسل تنبيهات بريد)"
+
+#: media/js/post.js:2498
+msgid "Are you sure you don't want to post this comment?"
+msgstr "هل انت متاكد من نشر التعليق؟"
+
+#: media/js/post.js:2543 media/jslib/timeago.js:137
+msgid "just now"
+msgstr "الأن"
+
+#: media/js/post.js:2620
+msgid "delete this comment"
+msgstr "انقر لتعديل التعليق"
+
+#: media/js/post.js:2918
+msgid "confirm delete comment"
+msgstr "هل تريد ازالة التعليق؟"
+
+#: media/js/post.js:3087
+msgid "please sign in or register to post comments"
+msgstr "الرجاء التسجيل لاضافة تعليق"
+
+#: media/js/post.js:3364 media/js/post.js.c:4185 media/js/post.js.c:4378
+#: media/js/utils/editable.js:314
+msgid "save"
+msgstr "حفظ"
+
+#: media/js/post.js:3489
+msgid "Enter the logo url or upload an image"
+msgstr "اضف الرابطا أو حمل الصورة"
+
+#: media/js/post.js:3515
+msgid "Do you really want to remove the image?"
+msgstr "هل تريد ازالة الصورة؟"
+
+#: media/js/post.js:3631
+msgid "change logo"
+msgstr "غير الشعار"
+
+#: media/js/post.js:3632
+msgid "add logo"
+msgstr "اضف شعار"
+
+#: media/js/post.js:3736
+#, c-format
+msgid "tag \"%s\" was already added, no need to repeat (press \"escape\" to delete)"
+msgstr "الوسم \"%s\" تمت إضافته مسبقاً، لا حاجة للتكرار (إضغط \"مفتاح الهروب escape\" للمسح)"
+
+#: media/js/post.js:3745
+#, c-format
+msgid "a maximum of %s tag is allowed"
+msgid_plural "a maximum of %s tags are allowed"
+msgstr[0] "%s وسام مسموح به كحد أقصى"
+msgstr[1] "%s وسام مسموح به كحد أقصى"
+msgstr[2] "%s وسام مسموح به كحد أقصى"
+msgstr[3] "%s وسام مسموح به كحد أقصى"
+msgstr[4] "%s وسام مسموح به كحد أقصى"
+msgstr[5] "%s وسام مسموح به كحد أقصى"
+
+#: media/js/post.js:4114
+msgid "Delete category?"
+msgstr "ازالة  تصنيف؟"
+
+#: media/js/post.js:4204 media/js/utils/edit_link.js:15
+msgid "edit"
+msgstr "تحرير"
+
+#: media/js/post.js:4291
+msgid "category name cannot be empty"
+msgstr "من فضلك اختر علي الأقل عنصر واحد"
+
+#: media/js/post.js:4328
+msgid "already exists at the current level!"
+msgstr "موجود مسبقاً في المستوى الحالي!"
+
+#: media/js/post.js:4364
+msgid "add category"
+msgstr "اضف تصنيف"
+
+#: media/js/post.js:4917
+msgid "save tags"
+msgstr "حفظ الوسم"
+
+#: media/js/post.js:4949 media/js/editors/folded_editor.js:38
+msgid "Sorry, you have only read access"
+msgstr "عذراً، لديك صلاحيات قراءة فقط"
+
+#: media/js/post.js:5022
+msgid "Group name:"
+msgstr "اسم المجموعة :"
+
+#: media/js/post.js:5048
+msgid "Shared with the following users:"
+msgstr "بحث عن المستخدم"
+
+#: media/js/post.js:5054
+msgid "Shared with the following groups:"
+msgstr "شارك المجموعة"
+
+#: media/js/tag_selector.js:14
+msgid "Tag \"<span></span>\" matches:"
+msgstr "علامة \"<span></span>\" تطابق:"
+
+#: media/js/tag_selector.js:91
+#, c-format
+msgid "and %s more, not shown..."
+msgstr "و المزيد من %s، غير معروض"
+
+#: media/js/user.js:50
+msgid "Please <a href=\"%(signin_url)s\">signin</a> to follow %(username)s"
+msgstr "من فضلك، <a href=\"%(signin_url)s\">قم بالدخول</a> لمتابعة  %(username)s "
+
+#: media/js/utils.js:206
+msgid "must be shorter than %(max_chars)s character"
+msgid_plural "must be shorter than %(max_chars)s characters"
+msgstr[0] "لا تستخدم أية أحرف"
+msgstr[1] "ينبغي أن تكون أقصر من %(max_chars)s حرف"
+msgstr[2] "ينبغي أن تكون أقصر من حرفين"
+msgstr[3] "ينبغي أن تكون أقصر من %(max_chars)s حرفاً"
+msgstr[4] "ينبغي أن تكون أقصر من %(max_chars)s حرفاً"
+msgstr[5] "ينبغي أن تكون أقصر من %(max_chars)s حرفاً"
+
+#: media/js/utils.js:274
+msgid "and"
+msgstr "و"
+
+#: media/js/utils.js:292
+msgid "click to close"
+msgstr "انقر للغلق"
+
+#: media/js/jquery-openid/jquery.authenticator.js:73
+#, c-format
+msgid "Are you sure you want to remove your %s login?"
+msgstr "هل أنت متأكد من إزالة %s للتعريف؟"
+
+#: media/js/jquery-openid/jquery.authenticator.js:90
+msgid "Please add one or more login methods."
+msgstr "من فضلك قم بإضافة أحد وسائل الدخول؟"
+
+#: media/js/jquery-openid/jquery.authenticator.js:93
+msgid ""
+"You don't have a method to log in right now, please add one or more by "
+"clicking any of the icons below."
+msgstr "لا يوجد لديك وسيلة للدخول، يمكنك إختيار واحدة مما يلي."
+
+#: media/js/jquery-openid/jquery.authenticator.js:147
+msgid "enter username"
+msgstr ""
+
+#: media/js/jquery-openid/jquery.authenticator.js:149
+msgid "enter username or email"
+msgstr ""
+
+#: media/js/jquery-openid/jquery.authenticator.js:158
+msgid "enter password"
+msgstr ""
+
+#: media/js/jquery-openid/jquery.authenticator.js:180
+msgid "passwords do not match"
+msgstr "كلمة المرور لم تتطابق"
+
+#: media/js/jquery-openid/jquery.authenticator.js:206
+msgid "Show/change current login methods"
+msgstr "عرض/تغيير وسائل الدخول"
+
+#: media/js/jquery-openid/jquery.authenticator.js:262
+#, c-format
+msgid "Please enter your %s, then proceed"
+msgstr "من فضلك أدخل %s، ثم أكمل"
+
+#: media/js/jquery-openid/jquery.authenticator.js:264
+msgid "Connect your %(provider_name)s account to %(site)s"
+msgstr "قم بربط حساب الـ%(provider_name)s  لموقع %(site)s "
+
+#: media/js/jquery-openid/jquery.authenticator.js:362
+#, c-format
+msgid "Change your %s password"
+msgstr "تغيير كلمة مرور %s"
+
+#: media/js/jquery-openid/jquery.authenticator.js:363
+msgid "Change password"
+msgstr "غيير كلمة المرور"
+
+#: media/js/jquery-openid/jquery.authenticator.js:365
+#, c-format
+msgid "Create a password for %s"
+msgstr "إنشاء كلمة مرور لـ %s"
+
+#: media/js/jquery-openid/jquery.authenticator.js:366
+msgid "Create password"
+msgstr "إنشاء كلمة المرور"
+
+#: media/js/jquery-openid/jquery.authenticator.js:377
+msgid "Create a password-protected account"
+msgstr "إنشاء جساب محمي بكلمة مرور"
+
+#: media/js/user/group_adder_widget.js:12
+msgid "add group"
+msgstr "اضف مجموهة"
+
+#: media/js/user/group_adder_widget.js:92
+msgid "add"
+msgstr "إضافة"
+
+#: media/js/user/manage_reject_reasons_dialog.js:90
+msgid "Looks there are some things to fix:"
+msgstr "انظر هل يوجد شئ  لتصليحه :"
+
+#: media/js/user/manage_reject_reasons_dialog.js:158
+msgid "Please provide description."
+msgstr "فضل ضع وصف."
+
+#: media/js/user/manage_reject_reasons_dialog.js:161
+msgid "Please provide details."
+msgstr "قم بتوفير ما يكفي من التفاصيل"
+
+#: media/js/user/manage_reject_reasons_dialog.js:248
+msgid "A reason must be selected to delete one."
+msgstr "يجب ان تختار سبب لحذف الاخر "
+
+#: media/js/user/post_moderation_controls.js:77
+#: media/js/user/response_notifs.js:30 media/js/user/response_notifs.js.c:107
+msgid "Please select at least one item"
+msgstr "فضلاً اختر عنصراً واحداً علي الأقل"
+
+#: media/js/user/post_moderation_controls.js:113
+msgid "Load more items."
+msgstr ""
+
+#: media/js/utils/comment_convert_link.js:26
+msgid "convert to answer"
+msgstr "تحويل لإجابة"
+
+#: media/js/utils/edit_link.js:14
+msgid "click to edit this comment"
+msgstr "انقر لتعديل التعليق"
+
+#: media/js/utils/file_upload_dialog.js:138
+#, c-format
+msgid "Uploaded file: %s"
+msgstr "الملفات المرفوعة: %s"
+
+#: media/js/utils/file_upload_dialog.js:152
+msgid "Choose a different file"
+msgstr "اختر ملف  اخر"
+
+#: media/js/utils/file_upload_dialog.js:154
+msgid "Choose a different image"
+msgstr "اختر  صورة مختلفة"
+
+#: media/js/utils/file_upload_dialog.js:168
+msgid "Oops, looks like we had an error. Sorry."
+msgstr "سحقا,يبدو أن هنالك خطأ"
+
+#: media/js/utils/file_upload_dialog.js:228
+msgid "Choose a file to insert"
+msgstr "اختر ملف للادخال "
+
+#: media/js/utils/file_upload_dialog.js:230
+msgid "Choose an image to insert"
+msgstr "اختر صورة  للادخال"
+
+#: media/js/utils/file_upload_dialog.js:243
+msgid "Allowed file types are:"
+msgstr "أنواع الملفات المسموح بها هي '%(file_types)s'"
+
+#: media/js/utils/file_upload_dialog.js:249
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:35
+msgid "Or paste file url here"
+msgstr "أو الصق الرابط هنا"
+
+#: media/js/utils/group_dropdown.js:18
+msgid "group name"
+msgstr "اسم المجموعة"
+
+#: media/js/utils/group_dropdown.js:26
+msgid "add new group"
+msgstr "إضافة مجموعة"
+
+#: media/js/utils/group_dropdown.js:118
+msgid "Group %(name)s already exists. Group names are case-insensitive."
+msgstr "أسم المجموعة %(name)s محجوز، أسماء المجموعات غير حساسة لحالة الأحرف."
+
+#: media/js/utils/modal_dialog.js:7
+msgid "Ok"
+msgstr "موافق"
+
+#: media/js/utils/paginator.js:115
+#, c-format
+msgid "page %s"
+msgstr ""
+
+#: media/js/utils/tag.js:122
+#, c-format
+msgid "see questions tagged '%s'"
+msgstr "مشاهدة الأسئلة الموسومة بـ'%s'"
+
+#: media/js/utils/text_property_editor.js:47
+msgid "Save"
+msgstr "حفظ"
+
+#: media/js/utils/text_property_editor.js:119
+msgid "saved"
+msgstr "حفظت"
+
+#: media/js/utils/toggle.js:88 media/js/utils/toggle.js.c:103
+msgid "enabled"
+msgstr "مفعل"
+
+#: media/js/utils/toggle.js:89 media/js/utils/toggle.js.c:104
+msgid "disabled"
+msgstr "غير مسموح به"
+
+#: media/jslib/timeago.js:90
+msgid "Jan"
+msgstr "يناير"
+
+#: media/jslib/timeago.js:91
+msgid "Feb"
+msgstr "فبراير"
+
+#: media/jslib/timeago.js:92
+msgid "Mar"
+msgstr "مارس"
+
+#: media/jslib/timeago.js:93
+msgid "Apr"
+msgstr "أبريل"
+
+#: media/jslib/timeago.js:94
+msgid "May"
+msgstr "مايو"
+
+#: media/jslib/timeago.js:95
+msgid "Jun"
+msgstr "يونيو"
+
+#: media/jslib/timeago.js:96
+msgid "Jul"
+msgstr "يوليو"
+
+#: media/jslib/timeago.js:97
+msgid "Aug"
+msgstr "أغسطس"
+
+#: media/jslib/timeago.js:98
+msgid "Sep"
+msgstr "سبتمبر"
+
+#: media/jslib/timeago.js:99
+msgid "Oct"
+msgstr "أكتوبر"
+
+#: media/jslib/timeago.js:100
+msgid "Nov"
+msgstr "نوفمبر"
+
+#: media/jslib/timeago.js:101
+msgid "Dec"
+msgstr "ديسمبر"
+
+#: media/jslib/timeago.js:113
+msgid "2 days ago"
+msgstr "منذ يومين"
+
+#: media/jslib/timeago.js:115
+msgid "yesterday"
+msgstr "البارحة"
+
+#: media/jslib/timeago.js:120
+#, c-format
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "منذ %s ساعات"
+msgstr[1] "منذ %s ساعة"
+msgstr[2] "منذ %s ساعات"
+msgstr[3] "منذ %s ساعات"
+msgstr[4] "منذ %s ساعات"
+msgstr[5] "منذ %s ساعات"
+
+#: media/jslib/timeago.js:130
+#, c-format
+msgid "%s min ago"
+msgid_plural "%s mins ago"
+msgstr[0] "منذ %s دقائق"
+msgstr[1] "منذ %s دقيقة"
+msgstr[2] "منذ %s دقائق"
+msgstr[3] "منذ %s دقائق"
+msgstr[4] "منذ %s دقائق"
+msgstr[5] "منذ %s دقائق"
+
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:71
+msgid "Insert a file"
+msgstr "إدراج ملف"
+
+#: media/tinymce/plugins/askbot_imageuploader/editor_plugin.js:70
+msgid "Insert image"
+msgstr "أدخل رابط الصورة، مثل http://www.example.com/image.jpg أو قم برفع ملف الصورة"
+
+#: media/wmd/wmd.js:31
+msgid "bold"
+msgstr "سميك"
+
+#: media/wmd/wmd.js:32
+msgid "italic"
+msgstr "مائل"
+
+#: media/wmd/wmd.js:33
+msgid "link"
+msgstr "رابط"
+
+#: media/wmd/wmd.js:34
+msgid "quote"
+msgstr "اقتباس"
+
+#: media/wmd/wmd.js:35
+msgid "preformatted text"
+msgstr "نص منسق مسبقاً"
+
+#: media/wmd/wmd.js:36
+msgid "image"
+msgstr "صورة"
+
+#: media/wmd/wmd.js:37
+msgid "attachment"
+msgstr "مرفق"
+
+#: media/wmd/wmd.js:38
+msgid "numbered list"
+msgstr "قائمة رقمية"
+
+#: media/wmd/wmd.js:39
+msgid "bulleted list"
+msgstr "قائمة نقطية"
+
+#: media/wmd/wmd.js:40
+msgid "heading"
+msgstr "عنوان"
+
+#: media/wmd/wmd.js:41
+msgid "horizontal bar"
+msgstr "شريط أفقي"
+
+#: media/wmd/wmd.js:42
+msgid "undo"
+msgstr "تراجع"
+
+#: media/wmd/wmd.js:43 media/wmd/wmd.js.c:1171
+msgid "redo"
+msgstr "إعادة"
+
+#: media/wmd/wmd.js:54
+msgid "enter image url"
+msgstr "أدخل عنوان الصورة، مثلاً http://www.example.com/image.jpg - أو ارفع ملف صورة"
+
+#: media/wmd/wmd.js:55
+msgid "enter url"
+msgstr "أدخل عنوان الموقع، مثلاً http://www.example.com \"عنوان الصفحة\""
+
+#: media/wmd/wmd.js:56
+msgid "upload file attachment"
+msgstr "فضلاً اختر ملفاً لرفعه:"
+
+#: media/wmd/wmd.js:1686
+msgid "strong text"
+msgstr ""
+
+#: media/wmd/wmd.js:1690
+msgid "emphasized text"
+msgstr ""
+
+#: media/wmd/wmd.js:1844
+msgid "image description"
+msgstr "وصف الصورة"
+
+#: media/wmd/wmd.js:1847
+msgid "file name"
+msgstr "اسم الملف"
+
+#: media/wmd/wmd.js:1851
+msgid "link text"
+msgstr "نص الرابط"
+
+#: media/wmd/wmd.js:2284 media/wmd/wmd.js.c:2304
+msgid "enter code here"
+msgstr ""
+
+#: media/wmd/wmd.js:2398
+msgid "List item"
+msgstr ""
+
+#: media/wmd/wmd.js:2430
+msgid "Heading"
+msgstr ""
+
+#~ msgid "%(question)s must have > %(length)s character"
+#~ msgid_plural "%(question)s must have > %(length)s characters"
+#~ msgstr[0] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_0"
+#~ msgstr[1] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_1"
+#~ msgstr[2] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_2"
+#~ msgstr[3] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_3"
+#~ msgstr[4] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_4"
+#~ msgstr[5] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_5"
+
+#~ msgid "anonymous users cannot %(follow_questions)s"
+#~ msgstr "sorry, anonymous users cannot vote "
+
+#~ msgid "Follow"
+#~ msgstr "Follow"
+
+#~ msgid "<div class=\"following\">Following</div><div class=\"unfollow\">Unfollow</div>"
+#~ msgstr "<div>Following</div><div class=\"unfollow\">Unfollow</div>"
+
+#~ msgid "cannot pick own answer as best"
+#~ msgstr "sorry, you cannot accept your own answer"
+
+#~ msgid "please confirm offensive"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "please confirm removal of offensive flag"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "Post deleted"
+#~ msgstr "your post has been deleted"
+
+#~ msgid "Post approved"
+#~ msgstr "your post is now restored!"
+
+#~ msgid "post a comment"
+#~ msgstr "save comment"
+
+#~ msgid "%s content minchars"
+#~ msgstr "please enter more than %s characters"
+
+#~ msgid "%s title minchars"
+#~ msgstr "please enter at least %s characters"

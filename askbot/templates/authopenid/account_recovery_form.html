@@ -1,0 +1,10 @@
+<form action="{% url user_account_recover %}" method="post">{% csrf_token %}
+    <input id="id_email" name="email" type="text" placeholder="{% trans %}Enter your email{% endtrans %}">
+    <input type="submit" class="btn btn-primary"
+        {% if bad_key %}
+        value="{% trans %}Send a new recovery key{% endtrans %}"
+        {% else %}
+        value="{% trans %}Recover account{% endtrans %}"
+        {% endif %}
+    />
+</form>

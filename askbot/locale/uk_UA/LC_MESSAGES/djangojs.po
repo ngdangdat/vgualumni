@@ -1,0 +1,760 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# panasoft <cc072aa3@opayq.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: askbot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-03 09:49-0600\n"
+"PO-Revision-Date: 2017-03-03 16:06+0000\n"
+"Last-Translator: evgeny <evgeny.fadeev@gmail.com>\n"
+"Language-Team: Ukrainian (Ukraine) (http://www.transifex.com/askbot/askbot/language/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: media/js/group_messaging.js:132
+msgid "Type a message"
+msgstr ""
+
+#: media/js/group_messaging.js:141
+msgid "Add a recipient"
+msgstr ""
+
+#: media/js/group_messaging.js:171
+msgid "message sent"
+msgstr "повідомлення надіслано"
+
+#: media/js/group_messaging.js:187
+msgid ""
+"Did you mean to send your message to muliple users? Use comma instead of "
+"whitespaces"
+msgstr ""
+
+#: media/js/group_messaging.js:191
+msgid "user {{str}} does not exist"
+msgid_plural "users {{str}} do not exist"
+msgstr[0] "користувач {{str}} відсутній"
+msgstr[1] "користувачі {{str}} відсутні"
+msgstr[2] "користувачі {{str}} відсутні"
+
+#: media/js/group_messaging.js:198
+msgid "cannot send message to yourself"
+msgstr "не можна надіслати повідомлення самому собі"
+
+#: media/js/live_search.js:198
+msgid "To see search results, 2 or more characters may be required"
+msgstr "Потрібно 2 або більше символів, щоб побачити результати пошуку"
+
+#: media/js/live_search.js:220
+msgid "Ask Your Question"
+msgstr "Задайте Ваше Питання"
+
+#: media/js/live_search.js:301
+msgid "Sorry, this tag does not exist"
+msgid_plural "Sorry, these tags do not exist"
+msgstr[0] "Нажаль, це ключове слово відсутнє"
+msgstr[1] "Нажаль, ці ключові слова відсутні"
+msgstr[2] "Нажаль, ці ключові слова відсутні"
+
+#: media/js/live_search.js:315
+msgid "Search or ask your question"
+msgstr ""
+
+#: media/js/post.js:28
+msgid "loading..."
+msgstr "завантажується..."
+
+#: media/js/post.js:137 media/js/post.js.c:176 media/js/post.js.c:229
+#: media/js/post.js:253
+msgid "enter > %(length)s character"
+msgid_plural "enter > %(length)s characters"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: media/js/post.js:155 media/js/post.js.c:218
+#, c-format
+msgid "details must have > %s character"
+msgid_plural "details must have > %s characters"
+msgstr[0] "подробиці повинні мати > %s символа"
+msgstr[1] "подробиці повинні мати > %s символів"
+msgstr[2] "подробиці повинні мати > %s символів"
+
+#: media/js/post.js:209 media/js/post.js.c:1457
+msgid "tags cannot be empty"
+msgstr "будь-ласка, введіть хоча-б одне ключове слово"
+
+#: media/js/post.js:215
+msgid "details are required"
+msgstr "потрібно деталізувати"
+
+#: media/js/post.js:226
+msgid "enter your question"
+msgstr "введіть Ваше запитання"
+
+#: media/js/post.js:250
+msgid "content cannot be empty"
+msgstr "вміст не повинен бути пустим"
+
+#: media/js/post.js:311
+msgid "Back to the question"
+msgstr "Повернутись до запитання"
+
+#: media/js/post.js:382 media/js/post.js.c:426 media/js/post.js.c:512
+msgid "Load preview"
+msgstr "Завантажити попередній перегляд"
+
+#: media/js/post.js:420
+msgid "Merge"
+msgstr "Об'єднати"
+
+#: media/js/post.js:511 media/js/utils/modal_dialog.js:9
+#: media/js/utils/text_property_editor.js:48
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: media/js/post.js:561
+msgid "draft saved..."
+msgstr "чорновик збережено..."
+
+#: media/js/post.js:781
+#, c-format
+msgid "%s follower"
+msgid_plural "%s followers"
+msgstr[0] "стежить %s"
+msgstr[1] "стежать %s"
+msgstr[2] "стежать %s"
+
+#: media/js/post.js:819
+msgid "insufficient privilege"
+msgstr "недостатньо привілеїв"
+
+#: media/js/post.js:821 media/js/post.js.c:1606
+msgid "please login"
+msgstr "будь-ласка, авторизуйтесь"
+
+#: media/js/post.js:824
+msgid "anonymous users cannot subscribe to questions"
+msgstr "неавторизовані користувачі не можуть підписуватись на запитання"
+
+#: media/js/post.js:825 media/js/post.js.c:1616
+msgid "anonymous users cannot vote"
+msgstr "нажаль, неавторизовані користувачі не можуть голосувати"
+
+#: media/js/post.js:827
+msgid "anonymous users cannot flag offensive posts"
+msgstr "неавторизовані користувачі не можуть відмічати агресивні запитання"
+
+#: media/js/post.js:828
+msgid "confirm delete"
+msgstr "Ви дійсно впевнені у тому, що хочете видалити це?"
+
+#: media/js/post.js:829
+msgid "anonymous users cannot delete/undelete"
+msgstr "нажаль, неавторизовані користувачі не можуть видаляти або відновлювати повідомлення"
+
+#: media/js/post.js:830
+msgid "post recovered"
+msgstr "Ваше повідомлення тепер відновлене!"
+
+#: media/js/post.js:831
+msgid "post deleted"
+msgstr "Ваше повідомлення видалено"
+
+#: media/js/post.js:1047
+msgid "sorry, you cannot %(accept_own_answer)s"
+msgstr "нажаль, Ви не можете %(accept_own_answer)s"
+
+#: media/js/post.js:1101
+msgid "remove flag"
+msgstr "зняти відмітку"
+
+#: media/js/post.js:1135 media/js/post.js.c:1166
+msgid "flag offensive"
+msgstr "відмітка агресивності"
+
+#: media/js/post.js:1191 media/js/post.js.c:1687
+msgid "undelete"
+msgstr "відновити"
+
+#: media/js/post.js:1195 media/js/post.js.c:1691
+msgid "delete"
+msgstr "видалити"
+
+#: media/js/post.js:1397 media/js/post.js.c:1635
+msgid "sorry, something is not right here"
+msgstr "нажаль, дещо тут не вірно"
+
+#: media/js/post.js:1865
+msgid "Preview: (hide)"
+msgstr ""
+
+#: media/js/post.js:1866
+msgid "Show preview"
+msgstr ""
+
+#: media/js/post.js:2283
+msgid "add comment"
+msgstr "додати коментар"
+
+#: media/js/post.js:2288
+msgid "save comment"
+msgstr "зберегти коментар"
+
+#: media/js/post.js:2332
+#, c-format
+msgid "enter at least %s characters"
+msgstr "введіть щонайменше %s символів"
+
+#: media/js/post.js:2334
+#, c-format
+msgid "enter at least %s more characters"
+msgstr "введіть щонайменше %s символів додатково"
+
+#: media/js/post.js:2346
+#, c-format
+msgid "%s characters left"
+msgstr "залишилось %s символів"
+
+#: media/js/post.js:2348
+msgid "maximum comment length reached"
+msgstr "досягнуто максимальної довжини коментаря"
+
+#: media/js/post.js:2451 media/js/post.js.c:3370 media/js/post.js.c:4921
+#: media/js/user/group_adder_widget.js:17 media/js/utils/editable.js:319
+msgid "cancel"
+msgstr "скасувати"
+
+#: media/js/post.js:2466
+msgid "minor edit (don't send alerts)"
+msgstr "незначна зміна (не надсилати повідомлення)"
+
+#: media/js/post.js:2498
+msgid "Are you sure you don't want to post this comment?"
+msgstr "Ви дійсно впевнені у тому, що не хочете публікувати цей коментар?"
+
+#: media/js/post.js:2543 media/jslib/timeago.js:137
+msgid "just now"
+msgstr "саме тепер"
+
+#: media/js/post.js:2620
+msgid "delete this comment"
+msgstr "видалити цей коментар"
+
+#: media/js/post.js:2918
+msgid "confirm delete comment"
+msgstr "чи Ви дійсно хочете видалити цей коментар?"
+
+#: media/js/post.js:3087
+msgid "please sign in or register to post comments"
+msgstr "будь-ласка, авторизуйтесь або зареєструйтесь, щоб публікувати коментарі"
+
+#: media/js/post.js:3364 media/js/post.js.c:4185 media/js/post.js.c:4378
+#: media/js/utils/editable.js:314
+msgid "save"
+msgstr "зберегти"
+
+#: media/js/post.js:3489
+msgid "Enter the logo url or upload an image"
+msgstr "Введіть url логотипу або завантажте зображення"
+
+#: media/js/post.js:3515
+msgid "Do you really want to remove the image?"
+msgstr "Чи Ви дісно хочете видалити зображення?"
+
+#: media/js/post.js:3631
+msgid "change logo"
+msgstr "змінити логотип"
+
+#: media/js/post.js:3632
+msgid "add logo"
+msgstr "додати логотип"
+
+#: media/js/post.js:3736
+#, c-format
+msgid "tag \"%s\" was already added, no need to repeat (press \"escape\" to delete)"
+msgstr "ключове слово \"%s\" вже внесене, немає потреби повторювати (натисніть \"escape\" щоб видалити)"
+
+#: media/js/post.js:3745
+#, c-format
+msgid "a maximum of %s tag is allowed"
+msgid_plural "a maximum of %s tags are allowed"
+msgstr[0] "підтримується максимально %s ключове слово"
+msgstr[1] "підтримується максимально %s ключових слів"
+msgstr[2] "підтримується максимально %s ключових слів"
+
+#: media/js/post.js:4114
+msgid "Delete category?"
+msgstr "Видалити категорію?"
+
+#: media/js/post.js:4204 media/js/utils/edit_link.js:15
+msgid "edit"
+msgstr "редагувати"
+
+#: media/js/post.js:4291
+msgid "category name cannot be empty"
+msgstr "назва категорії не може бути порожньою"
+
+#: media/js/post.js:4328
+msgid "already exists at the current level!"
+msgstr "вже присутнє на даному рівні!"
+
+#: media/js/post.js:4364
+msgid "add category"
+msgstr "додати категорію"
+
+#: media/js/post.js:4917
+msgid "save tags"
+msgstr "зберегти ключові слова"
+
+#: media/js/post.js:4949 media/js/editors/folded_editor.js:38
+msgid "Sorry, you have only read access"
+msgstr "Нажаль, Ви маєте доступ тільки для читання"
+
+#: media/js/post.js:5022
+msgid "Group name:"
+msgstr "Назва групи:"
+
+#: media/js/post.js:5048
+msgid "Shared with the following users:"
+msgstr "Є доступним для наступних користувачів:"
+
+#: media/js/post.js:5054
+msgid "Shared with the following groups:"
+msgstr "Є доступним для наступних груп:"
+
+#: media/js/tag_selector.js:14
+msgid "Tag \"<span></span>\" matches:"
+msgstr "Ключове слово \"<span></span>\" відповідає:"
+
+#: media/js/tag_selector.js:91
+#, c-format
+msgid "and %s more, not shown..."
+msgstr "та ще %s, не показано..."
+
+#: media/js/user.js:50
+msgid "Please <a href=\"%(signin_url)s\">signin</a> to follow %(username)s"
+msgstr "Будь-ласка, <a href=\"%(signin_url)s\">авторизуйтесь</a> щоб слідкувати за  %(username)s"
+
+#: media/js/utils.js:206
+msgid "must be shorter than %(max_chars)s character"
+msgid_plural "must be shorter than %(max_chars)s characters"
+msgstr[0] "повинно бути коротше за %(max_chars)s символ"
+msgstr[1] "повинно бути коротше за %(max_chars)s символів"
+msgstr[2] "повинно бути коротше за %(max_chars)s символів"
+
+#: media/js/utils.js:274
+msgid "and"
+msgstr "та"
+
+#: media/js/utils.js:292
+msgid "click to close"
+msgstr "клацніть, щоб закрити"
+
+#: media/js/jquery-openid/jquery.authenticator.js:73
+#, c-format
+msgid "Are you sure you want to remove your %s login?"
+msgstr "Ви дійсно впевнені, що хочете видалити авторизацію через %s?"
+
+#: media/js/jquery-openid/jquery.authenticator.js:90
+msgid "Please add one or more login methods."
+msgstr "Будь-ласка, додайте один або кілька методів авторизації."
+
+#: media/js/jquery-openid/jquery.authenticator.js:93
+msgid ""
+"You don't have a method to log in right now, please add one or more by "
+"clicking any of the icons below."
+msgstr "Ви зараз не маєте жодного методу для авторизації, будь-ласка, додайте один або кілька методів, клацнувши на будь-якій іконці нижче."
+
+#: media/js/jquery-openid/jquery.authenticator.js:147
+msgid "enter username"
+msgstr ""
+
+#: media/js/jquery-openid/jquery.authenticator.js:149
+msgid "enter username or email"
+msgstr ""
+
+#: media/js/jquery-openid/jquery.authenticator.js:158
+msgid "enter password"
+msgstr ""
+
+#: media/js/jquery-openid/jquery.authenticator.js:180
+msgid "passwords do not match"
+msgstr "паролі не сівпадають"
+
+#: media/js/jquery-openid/jquery.authenticator.js:206
+msgid "Show/change current login methods"
+msgstr "Показати/змінити чинний метод авторизації"
+
+#: media/js/jquery-openid/jquery.authenticator.js:262
+#, c-format
+msgid "Please enter your %s, then proceed"
+msgstr "Будь-ласка, спочатку введіть Ваш %s, а потім продовжуйте"
+
+#: media/js/jquery-openid/jquery.authenticator.js:264
+msgid "Connect your %(provider_name)s account to %(site)s"
+msgstr "Приєднайте Ваш реєстраційний запис на %(provider_name)s до %(site)s"
+
+#: media/js/jquery-openid/jquery.authenticator.js:362
+#, c-format
+msgid "Change your %s password"
+msgstr "Змініть Ваш пароль для  %s"
+
+#: media/js/jquery-openid/jquery.authenticator.js:363
+msgid "Change password"
+msgstr "Змінити пароль"
+
+#: media/js/jquery-openid/jquery.authenticator.js:365
+#, c-format
+msgid "Create a password for %s"
+msgstr "Створіть пароль для %s"
+
+#: media/js/jquery-openid/jquery.authenticator.js:366
+msgid "Create password"
+msgstr "Створити пароль"
+
+#: media/js/jquery-openid/jquery.authenticator.js:377
+msgid "Create a password-protected account"
+msgstr "Створіть реєстраційний запис, захищений паролем"
+
+#: media/js/user/group_adder_widget.js:12
+msgid "add group"
+msgstr "додати групу"
+
+#: media/js/user/group_adder_widget.js:92
+msgid "add"
+msgstr "додати"
+
+#: media/js/user/manage_reject_reasons_dialog.js:90
+msgid "Looks there are some things to fix:"
+msgstr "Погляньте, є дещо, що поребує виправлення:"
+
+#: media/js/user/manage_reject_reasons_dialog.js:158
+msgid "Please provide description."
+msgstr "Будь-ласка, надайте опис."
+
+#: media/js/user/manage_reject_reasons_dialog.js:161
+msgid "Please provide details."
+msgstr "Будь-ласка, надайте деталі."
+
+#: media/js/user/manage_reject_reasons_dialog.js:248
+msgid "A reason must be selected to delete one."
+msgstr "Щоб видалити, потрібно вказати причину."
+
+#: media/js/user/post_moderation_controls.js:77
+#: media/js/user/response_notifs.js:30 media/js/user/response_notifs.js.c:107
+msgid "Please select at least one item"
+msgstr "Будь-ласка, відмітьте щонайменше одне повідомлення"
+
+#: media/js/user/post_moderation_controls.js:113
+msgid "Load more items."
+msgstr "Завантажити більше повідомлень."
+
+#: media/js/utils/comment_convert_link.js:26
+msgid "convert to answer"
+msgstr "перетворити на відповідь"
+
+#: media/js/utils/edit_link.js:14
+msgid "click to edit this comment"
+msgstr "клацніть, щоб редагувати цей коментар"
+
+#: media/js/utils/file_upload_dialog.js:138
+#, c-format
+msgid "Uploaded file: %s"
+msgstr "Завантажити файл: %s"
+
+#: media/js/utils/file_upload_dialog.js:152
+msgid "Choose a different file"
+msgstr "Оберіть інший файл"
+
+#: media/js/utils/file_upload_dialog.js:154
+msgid "Choose a different image"
+msgstr "Оберіть інше зображення"
+
+#: media/js/utils/file_upload_dialog.js:168
+msgid "Oops, looks like we had an error. Sorry."
+msgstr "Ов-ва, здається ми припустились помилки. Вибачте."
+
+#: media/js/utils/file_upload_dialog.js:228
+msgid "Choose a file to insert"
+msgstr "Оберіть файл для вставки"
+
+#: media/js/utils/file_upload_dialog.js:230
+msgid "Choose an image to insert"
+msgstr "Оберіть зображення для вставки"
+
+#: media/js/utils/file_upload_dialog.js:243
+msgid "Allowed file types are:"
+msgstr "Підтримуються наступні типи файлів:"
+
+#: media/js/utils/file_upload_dialog.js:249
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:35
+msgid "Or paste file url here"
+msgstr "Або скопіюйте шлях до файлу сюди"
+
+#: media/js/utils/group_dropdown.js:18
+msgid "group name"
+msgstr "назва групи"
+
+#: media/js/utils/group_dropdown.js:26
+msgid "add new group"
+msgstr "додати нову групу"
+
+#: media/js/utils/group_dropdown.js:118
+msgid "Group %(name)s already exists. Group names are case-insensitive."
+msgstr "Група %(name)s вже існує. Назви груп регістрочутливі."
+
+#: media/js/utils/modal_dialog.js:7
+msgid "Ok"
+msgstr "Гаразд"
+
+#: media/js/utils/paginator.js:115
+#, c-format
+msgid "page %s"
+msgstr "сторінка %s"
+
+#: media/js/utils/tag.js:122
+#, c-format
+msgid "see questions tagged '%s'"
+msgstr "дивіться питання з ключовим словом '%s'"
+
+#: media/js/utils/text_property_editor.js:47
+msgid "Save"
+msgstr "Зберегти"
+
+#: media/js/utils/text_property_editor.js:119
+msgid "saved"
+msgstr "збережено"
+
+#: media/js/utils/toggle.js:88 media/js/utils/toggle.js.c:103
+msgid "enabled"
+msgstr "дозволено"
+
+#: media/js/utils/toggle.js:89 media/js/utils/toggle.js.c:104
+msgid "disabled"
+msgstr "заборонено"
+
+#: media/jslib/timeago.js:90
+msgid "Jan"
+msgstr "Січ"
+
+#: media/jslib/timeago.js:91
+msgid "Feb"
+msgstr "Лют"
+
+#: media/jslib/timeago.js:92
+msgid "Mar"
+msgstr "Бер"
+
+#: media/jslib/timeago.js:93
+msgid "Apr"
+msgstr "Кві"
+
+#: media/jslib/timeago.js:94
+msgid "May"
+msgstr "Тра"
+
+#: media/jslib/timeago.js:95
+msgid "Jun"
+msgstr "Чер"
+
+#: media/jslib/timeago.js:96
+msgid "Jul"
+msgstr "Лип"
+
+#: media/jslib/timeago.js:97
+msgid "Aug"
+msgstr "Сер"
+
+#: media/jslib/timeago.js:98
+msgid "Sep"
+msgstr "Вер"
+
+#: media/jslib/timeago.js:99
+msgid "Oct"
+msgstr "Жов"
+
+#: media/jslib/timeago.js:100
+msgid "Nov"
+msgstr "Лис"
+
+#: media/jslib/timeago.js:101
+msgid "Dec"
+msgstr "Гру"
+
+#: media/jslib/timeago.js:113
+msgid "2 days ago"
+msgstr "2 дні тому"
+
+#: media/jslib/timeago.js:115
+msgid "yesterday"
+msgstr "учора"
+
+#: media/jslib/timeago.js:120
+#, c-format
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "%s година тому"
+msgstr[1] "%s годин тому"
+msgstr[2] "%s годин тому"
+
+#: media/jslib/timeago.js:130
+#, c-format
+msgid "%s min ago"
+msgid_plural "%s mins ago"
+msgstr[0] "%s хвилина тому"
+msgstr[1] "%s хвилин тому"
+msgstr[2] "%s хвилин тому"
+
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:71
+msgid "Insert a file"
+msgstr "Вставте файл"
+
+#: media/tinymce/plugins/askbot_imageuploader/editor_plugin.js:70
+msgid "Insert image"
+msgstr "Вставте зображення"
+
+#: media/wmd/wmd.js:31
+msgid "bold"
+msgstr "напівжирний"
+
+#: media/wmd/wmd.js:32
+msgid "italic"
+msgstr "курсив"
+
+#: media/wmd/wmd.js:33
+msgid "link"
+msgstr "посилання"
+
+#: media/wmd/wmd.js:34
+msgid "quote"
+msgstr "цитата"
+
+#: media/wmd/wmd.js:35
+msgid "preformatted text"
+msgstr "форматований текст"
+
+#: media/wmd/wmd.js:36
+msgid "image"
+msgstr "зображення"
+
+#: media/wmd/wmd.js:37
+msgid "attachment"
+msgstr "прикріплення"
+
+#: media/wmd/wmd.js:38
+msgid "numbered list"
+msgstr "пронумерований список"
+
+#: media/wmd/wmd.js:39
+msgid "bulleted list"
+msgstr "промаркований список"
+
+#: media/wmd/wmd.js:40
+msgid "heading"
+msgstr "заголовок"
+
+#: media/wmd/wmd.js:41
+msgid "horizontal bar"
+msgstr "горизонтальна смуга"
+
+#: media/wmd/wmd.js:42
+msgid "undo"
+msgstr "відмінити"
+
+#: media/wmd/wmd.js:43 media/wmd/wmd.js.c:1171
+msgid "redo"
+msgstr "повторити"
+
+#: media/wmd/wmd.js:54
+msgid "enter image url"
+msgstr "введіть URL зображення, наприклад http://www.example.com/image.jpg або завантажте файл зображення"
+
+#: media/wmd/wmd.js:55
+msgid "enter url"
+msgstr "введіть Web адресу, наприклад http://www.example.com \"назва сторінки\""
+
+#: media/wmd/wmd.js:56
+msgid "upload file attachment"
+msgstr "Будь-ласка, оберіть за завантажте файл:"
+
+#: media/wmd/wmd.js:1686
+msgid "strong text"
+msgstr ""
+
+#: media/wmd/wmd.js:1690
+msgid "emphasized text"
+msgstr ""
+
+#: media/wmd/wmd.js:1844
+msgid "image description"
+msgstr "опис зображення"
+
+#: media/wmd/wmd.js:1847
+msgid "file name"
+msgstr "назва файлу"
+
+#: media/wmd/wmd.js:1851
+msgid "link text"
+msgstr "текст посилання"
+
+#: media/wmd/wmd.js:2284 media/wmd/wmd.js.c:2304
+msgid "enter code here"
+msgstr ""
+
+#: media/wmd/wmd.js:2398
+msgid "List item"
+msgstr ""
+
+#: media/wmd/wmd.js:2430
+msgid "Heading"
+msgstr ""
+
+#~ msgid "%(question)s must have > %(length)s character"
+#~ msgid_plural "%(question)s must have > %(length)s characters"
+#~ msgstr[0] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_0"
+#~ msgstr[1] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_1"
+#~ msgstr[2] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_2"
+
+#~ msgid "anonymous users cannot %(follow_questions)s"
+#~ msgstr "sorry, anonymous users cannot vote "
+
+#~ msgid "Follow"
+#~ msgstr "Follow"
+
+#~ msgid "<div class=\"following\">Following</div><div class=\"unfollow\">Unfollow</div>"
+#~ msgstr "<div>Following</div><div class=\"unfollow\">Unfollow</div>"
+
+#~ msgid "cannot pick own answer as best"
+#~ msgstr "sorry, you cannot accept your own answer"
+
+#~ msgid "please confirm offensive"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "please confirm removal of offensive flag"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "Post deleted"
+#~ msgstr "your post has been deleted"
+
+#~ msgid "Post approved"
+#~ msgstr "your post is now restored!"
+
+#~ msgid "post a comment"
+#~ msgstr "save comment"
+
+#~ msgid "%s content minchars"
+#~ msgstr "please enter more than %s characters"
+
+#~ msgid "%s title minchars"
+#~ msgstr "please enter at least %s characters"

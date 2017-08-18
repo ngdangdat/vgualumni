@@ -1,0 +1,760 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# heartsmagic <adresimeyaz@gmail.com>, 2014
+# Caner Başaran <basaran.caner@protonmail.com>, 2015
+# Cihad GÜNDOĞDU <cihadgundogdu@gmail.com>, 2012
+# Cihad GÜNDOĞDU <cihadgundogdu@gmail.com>, 2012
+# Emre AYTAÇ <eaytac@gmail.com>, 2014
+# İbrahim Çelik <ibrahimcelik89@gmail.com>, 2014
+# kayhantolga <kayhantolga@letscoding.com>, 2011
+# kayhantolga <kayhantolga@letscoding.com>, 2011
+# Kudret <kudretemre@hotmail.com.tr>, 2014-2015
+# Muhammet Kara <muhammetk@gmail.com>, 2016
+# Volkan Gezer <volkangezer@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: askbot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-03 09:49-0600\n"
+"PO-Revision-Date: 2017-03-03 16:06+0000\n"
+"Last-Translator: evgeny <evgeny.fadeev@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/askbot/askbot/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: media/js/group_messaging.js:132
+msgid "Type a message"
+msgstr "Bir ileti yazın"
+
+#: media/js/group_messaging.js:141
+msgid "Add a recipient"
+msgstr "Bir alıcı ekleyin"
+
+#: media/js/group_messaging.js:171
+msgid "message sent"
+msgstr "mesaj gönderildi"
+
+#: media/js/group_messaging.js:187
+msgid ""
+"Did you mean to send your message to muliple users? Use comma instead of "
+"whitespaces"
+msgstr "İletinizi birden çok kullanıcıya mı göndermek istediniz? Boşluk yerine virgül kullanın"
+
+#: media/js/group_messaging.js:191
+msgid "user {{str}} does not exist"
+msgid_plural "users {{str}} do not exist"
+msgstr[0] "{{str}} kullanıcısı mevcut değil"
+msgstr[1] "{{str}} kullanıcıları mevcut değil"
+
+#: media/js/group_messaging.js:198
+msgid "cannot send message to yourself"
+msgstr "kendinize ileti gönderemezsiniz"
+
+#: media/js/live_search.js:198
+msgid "To see search results, 2 or more characters may be required"
+msgstr "Arama sonuçlarını görmek için 2 veya daha fazla karakter gereklidir"
+
+#: media/js/live_search.js:220
+msgid "Ask Your Question"
+msgstr "Kendi Sorunuzu Sorun"
+
+#: media/js/live_search.js:301
+msgid "Sorry, this tag does not exist"
+msgid_plural "Sorry, these tags do not exist"
+msgstr[0] "Üzgünüz, bu etiket mevcut değil"
+msgstr[1] "Üzgünüz, bu etiketler mevcut değil"
+
+#: media/js/live_search.js:315
+msgid "Search or ask your question"
+msgstr "Arama yapın ya da sorunuzu sorun"
+
+#: media/js/post.js:28
+msgid "loading..."
+msgstr "yükleniyor..."
+
+#: media/js/post.js:137 media/js/post.js.c:176 media/js/post.js.c:229
+#: media/js/post.js:253
+msgid "enter > %(length)s character"
+msgid_plural "enter > %(length)s characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: media/js/post.js:155 media/js/post.js.c:218
+#, c-format
+msgid "details must have > %s character"
+msgid_plural "details must have > %s characters"
+msgstr[0] "ayrıntılar > %s karakter olmalı"
+msgstr[1] "ayrıntılar > %s karakter olmalı"
+
+#: media/js/post.js:209 media/js/post.js.c:1457
+msgid "tags cannot be empty"
+msgstr "etiketler boş olamaz"
+
+#: media/js/post.js:215
+msgid "details are required"
+msgstr "detaylar gerekli"
+
+#: media/js/post.js:226
+msgid "enter your question"
+msgstr "sorunuzu yazın"
+
+#: media/js/post.js:250
+msgid "content cannot be empty"
+msgstr "içerik boş olamaz"
+
+#: media/js/post.js:311
+msgid "Back to the question"
+msgstr "Soruya geri dön"
+
+#: media/js/post.js:382 media/js/post.js.c:426 media/js/post.js.c:512
+msgid "Load preview"
+msgstr "Önizlemeyi göster"
+
+#: media/js/post.js:420
+msgid "Merge"
+msgstr "Birleştir"
+
+#: media/js/post.js:511 media/js/utils/modal_dialog.js:9
+#: media/js/utils/text_property_editor.js:48
+msgid "Cancel"
+msgstr "İptal"
+
+#: media/js/post.js:561
+msgid "draft saved..."
+msgstr "taslak kaydedildi..."
+
+#: media/js/post.js:781
+#, c-format
+msgid "%s follower"
+msgid_plural "%s followers"
+msgstr[0] "%s takipçi"
+msgstr[1] "%s takipçi"
+
+#: media/js/post.js:819
+msgid "insufficient privilege"
+msgstr "yetersiz yetki"
+
+#: media/js/post.js:821 media/js/post.js.c:1606
+msgid "please login"
+msgstr "lütfen üye girişi yapın"
+
+#: media/js/post.js:824
+msgid "anonymous users cannot subscribe to questions"
+msgstr "misafir kullanıcılar sorulara abone olamaz"
+
+#: media/js/post.js:825 media/js/post.js.c:1616
+msgid "anonymous users cannot vote"
+msgstr "üye girişi yapmadan oy kullanamazsınız"
+
+#: media/js/post.js:827
+msgid "anonymous users cannot flag offensive posts"
+msgstr "misafir kullanıcılar rahatsız edici iletileri işaretleyemez"
+
+#: media/js/post.js:828
+msgid "confirm delete"
+msgstr "Bunu silmek istediğinizden emin misiniz?"
+
+#: media/js/post.js:829
+msgid "anonymous users cannot delete/undelete"
+msgstr "üye girişi yapmadan yazı silemez ya da geri alamazsınız"
+
+#: media/js/post.js:830
+msgid "post recovered"
+msgstr "yazı geri alındı!"
+
+#: media/js/post.js:831
+msgid "post deleted"
+msgstr "yazınız silindi"
+
+#: media/js/post.js:1047
+msgid "sorry, you cannot %(accept_own_answer)s"
+msgstr "üzgünüz, %(accept_own_answer)s işlemini yapamazsınız"
+
+#: media/js/post.js:1101
+msgid "remove flag"
+msgstr "bayrağı kaldır"
+
+#: media/js/post.js:1135 media/js/post.js.c:1166
+msgid "flag offensive"
+msgstr "kötüye kullanım olarak işaretle"
+
+#: media/js/post.js:1191 media/js/post.js.c:1687
+msgid "undelete"
+msgstr "geri al"
+
+#: media/js/post.js:1195 media/js/post.js.c:1691
+msgid "delete"
+msgstr "sil"
+
+#: media/js/post.js:1397 media/js/post.js.c:1635
+msgid "sorry, something is not right here"
+msgstr "üzgünüz, burada bir şeyler doğru değil"
+
+#: media/js/post.js:1865
+msgid "Preview: (hide)"
+msgstr "Önizleme: (gizle)"
+
+#: media/js/post.js:1866
+msgid "Show preview"
+msgstr "Önizlemeyi göster"
+
+#: media/js/post.js:2283
+msgid "add comment"
+msgstr "yorum ekle"
+
+#: media/js/post.js:2288
+msgid "save comment"
+msgstr "yorumu kaydet"
+
+#: media/js/post.js:2332
+#, c-format
+msgid "enter at least %s characters"
+msgstr "en az %s karakter girin"
+
+#: media/js/post.js:2334
+#, c-format
+msgid "enter at least %s more characters"
+msgstr "en az %s karakter daha girin"
+
+#: media/js/post.js:2346
+#, c-format
+msgid "%s characters left"
+msgstr "%s karakter kaldı"
+
+#: media/js/post.js:2348
+msgid "maximum comment length reached"
+msgstr "azami yorum uzunluğuna ulaşıldı"
+
+#: media/js/post.js:2451 media/js/post.js.c:3370 media/js/post.js.c:4921
+#: media/js/user/group_adder_widget.js:17 media/js/utils/editable.js:319
+msgid "cancel"
+msgstr "iptal"
+
+#: media/js/post.js:2466
+msgid "minor edit (don't send alerts)"
+msgstr "küçük düzenleme (uyarıları gönderme)"
+
+#: media/js/post.js:2498
+msgid "Are you sure you don't want to post this comment?"
+msgstr "Bu yorumu yazmak istemediğinize emin misiniz?"
+
+#: media/js/post.js:2543 media/jslib/timeago.js:137
+msgid "just now"
+msgstr "henüz şimdi"
+
+#: media/js/post.js:2620
+msgid "delete this comment"
+msgstr "bu yorumu sil"
+
+#: media/js/post.js:2918
+msgid "confirm delete comment"
+msgstr "yorumu gerçekten silmek istediğinizden emin misiniz?"
+
+#: media/js/post.js:3087
+msgid "please sign in or register to post comments"
+msgstr "lütfen yorum göndermek için oturum açın veya kaydolun"
+
+#: media/js/post.js:3364 media/js/post.js.c:4185 media/js/post.js.c:4378
+#: media/js/utils/editable.js:314
+msgid "save"
+msgstr "kaydet"
+
+#: media/js/post.js:3489
+msgid "Enter the logo url or upload an image"
+msgstr "Logo adresi girin veya bir resim yükleyin"
+
+#: media/js/post.js:3515
+msgid "Do you really want to remove the image?"
+msgstr "Gerçekten resmi kaldırmak istiyor musunuz?"
+
+#: media/js/post.js:3631
+msgid "change logo"
+msgstr "logoyu değiştir"
+
+#: media/js/post.js:3632
+msgid "add logo"
+msgstr "logo ekle"
+
+#: media/js/post.js:3736
+#, c-format
+msgid "tag \"%s\" was already added, no need to repeat (press \"escape\" to delete)"
+msgstr "\"%s\" etiketi zaten eklendi, yenilemeye gerek yok (silmek için \"ESC\" tuşuna basın)"
+
+#: media/js/post.js:3745
+#, c-format
+msgid "a maximum of %s tag is allowed"
+msgid_plural "a maximum of %s tags are allowed"
+msgstr[0] "en fazla %s etikete izin verilir"
+msgstr[1] "en fazla %s etikete izin verilir"
+
+#: media/js/post.js:4114
+msgid "Delete category?"
+msgstr "Kategori silinsin mi?"
+
+#: media/js/post.js:4204 media/js/utils/edit_link.js:15
+msgid "edit"
+msgstr "düzenle"
+
+#: media/js/post.js:4291
+msgid "category name cannot be empty"
+msgstr "kategori adı boş olamaz"
+
+#: media/js/post.js:4328
+msgid "already exists at the current level!"
+msgstr "zaten geçerli seviyede mevcut"
+
+#: media/js/post.js:4364
+msgid "add category"
+msgstr "kategori ekle"
+
+#: media/js/post.js:4917
+msgid "save tags"
+msgstr "etiketleri kaydet"
+
+#: media/js/post.js:4949 media/js/editors/folded_editor.js:38
+msgid "Sorry, you have only read access"
+msgstr "Üzgünüz, sadece okuma yetkisine sahipsiniz"
+
+#: media/js/post.js:5022
+msgid "Group name:"
+msgstr "Grup adı:"
+
+#: media/js/post.js:5048
+msgid "Shared with the following users:"
+msgstr "Şu kullanıcılar ile paylaşıldı:"
+
+#: media/js/post.js:5054
+msgid "Shared with the following groups:"
+msgstr "Şu gruplar ile paylaşıldı:"
+
+#: media/js/tag_selector.js:14
+msgid "Tag \"<span></span>\" matches:"
+msgstr "Eşleşen \"<span></span>\" etiketler:"
+
+#: media/js/tag_selector.js:91
+#, c-format
+msgid "and %s more, not shown..."
+msgstr "ve gösterilmeyen %s tane daha..."
+
+#: media/js/user.js:50
+msgid "Please <a href=\"%(signin_url)s\">signin</a> to follow %(username)s"
+msgstr "Lütfen %(username)s takip etmek için <a href=\"%(signin_url)s\">giriş yapın</a>"
+
+#: media/js/utils.js:206
+msgid "must be shorter than %(max_chars)s character"
+msgid_plural "must be shorter than %(max_chars)s characters"
+msgstr[0] "%(max_chars)d karakterden kısa olmak zorundadır"
+msgstr[1] "%(max_chars)d karakterden kısa olmak zorundadır"
+
+#: media/js/utils.js:274
+msgid "and"
+msgstr "ve"
+
+#: media/js/utils.js:292
+msgid "click to close"
+msgstr "kapatmak için tıklayın"
+
+#: media/js/jquery-openid/jquery.authenticator.js:73
+#, c-format
+msgid "Are you sure you want to remove your %s login?"
+msgstr "%s giriş kaydını silmek istediğinize emin misin?"
+
+#: media/js/jquery-openid/jquery.authenticator.js:90
+msgid "Please add one or more login methods."
+msgstr "Lütfen bir veya daha fazla giriş yöntemi seçin."
+
+#: media/js/jquery-openid/jquery.authenticator.js:93
+msgid ""
+"You don't have a method to log in right now, please add one or more by "
+"clicking any of the icons below."
+msgstr "Oturum açmak için bir yöntem seçmediniz, lütfen aşağıdaki ikonların birisine veya birden fazlasına tıklayarak bir oturum açma yöntemi seçin."
+
+#: media/js/jquery-openid/jquery.authenticator.js:147
+msgid "enter username"
+msgstr "kullanıcı adı girin"
+
+#: media/js/jquery-openid/jquery.authenticator.js:149
+msgid "enter username or email"
+msgstr "kullanıcı adı ya da e-posta girin"
+
+#: media/js/jquery-openid/jquery.authenticator.js:158
+msgid "enter password"
+msgstr "parola girin"
+
+#: media/js/jquery-openid/jquery.authenticator.js:180
+msgid "passwords do not match"
+msgstr "parolalar eşleşmiyor"
+
+#: media/js/jquery-openid/jquery.authenticator.js:206
+msgid "Show/change current login methods"
+msgstr "Geçerli giriş yöntemini göster/değiştir"
+
+#: media/js/jquery-openid/jquery.authenticator.js:262
+#, c-format
+msgid "Please enter your %s, then proceed"
+msgstr "Lütfen %s bilgisini girin ve devam edin"
+
+#: media/js/jquery-openid/jquery.authenticator.js:264
+msgid "Connect your %(provider_name)s account to %(site)s"
+msgstr "%(provider_name)s hesabınız ile %(site)s 'e bağlanın"
+
+#: media/js/jquery-openid/jquery.authenticator.js:362
+#, c-format
+msgid "Change your %s password"
+msgstr "%s parolanızı değiştirin"
+
+#: media/js/jquery-openid/jquery.authenticator.js:363
+msgid "Change password"
+msgstr "Parola değiştir"
+
+#: media/js/jquery-openid/jquery.authenticator.js:365
+#, c-format
+msgid "Create a password for %s"
+msgstr "%s için bir parola oluştur"
+
+#: media/js/jquery-openid/jquery.authenticator.js:366
+msgid "Create password"
+msgstr "Parola oluştur"
+
+#: media/js/jquery-openid/jquery.authenticator.js:377
+msgid "Create a password-protected account"
+msgstr "Parola korumalı bir hesap oluştur"
+
+#: media/js/user/group_adder_widget.js:12
+msgid "add group"
+msgstr "grup ekle"
+
+#: media/js/user/group_adder_widget.js:92
+msgid "add"
+msgstr "ekle"
+
+#: media/js/user/manage_reject_reasons_dialog.js:90
+msgid "Looks there are some things to fix:"
+msgstr "Onarılması gereken şeyler var gibi görünüyor:"
+
+#: media/js/user/manage_reject_reasons_dialog.js:158
+msgid "Please provide description."
+msgstr "Lütfen açıklama girin."
+
+#: media/js/user/manage_reject_reasons_dialog.js:161
+msgid "Please provide details."
+msgstr "Lütfen ayrıntıları girin."
+
+#: media/js/user/manage_reject_reasons_dialog.js:248
+msgid "A reason must be selected to delete one."
+msgstr "Silmek için bir sebep seçilmeli."
+
+#: media/js/user/post_moderation_controls.js:77
+#: media/js/user/response_notifs.js:30 media/js/user/response_notifs.js.c:107
+msgid "Please select at least one item"
+msgstr "En az bir tane seçim yapın"
+
+#: media/js/user/post_moderation_controls.js:113
+msgid "Load more items."
+msgstr "Daha fazla öge yükle."
+
+#: media/js/utils/comment_convert_link.js:26
+msgid "convert to answer"
+msgstr "cevaba çevir"
+
+#: media/js/utils/edit_link.js:14
+msgid "click to edit this comment"
+msgstr "bu yorumu düzenlemek için tıklayın"
+
+#: media/js/utils/file_upload_dialog.js:138
+#, c-format
+msgid "Uploaded file: %s"
+msgstr "Yüklenen dosya: %s"
+
+#: media/js/utils/file_upload_dialog.js:152
+msgid "Choose a different file"
+msgstr "Farklı bir dosya seçin"
+
+#: media/js/utils/file_upload_dialog.js:154
+msgid "Choose a different image"
+msgstr "Farklı bir resim seçin"
+
+#: media/js/utils/file_upload_dialog.js:168
+msgid "Oops, looks like we had an error. Sorry."
+msgstr "Olamaz, bir hata oluşmuş gibi görünüyor. Üzgünüz."
+
+#: media/js/utils/file_upload_dialog.js:228
+msgid "Choose a file to insert"
+msgstr "Eklemek için bir dosya seçin"
+
+#: media/js/utils/file_upload_dialog.js:230
+msgid "Choose an image to insert"
+msgstr "Eklemek için bir resim seçin"
+
+#: media/js/utils/file_upload_dialog.js:243
+msgid "Allowed file types are:"
+msgstr "İzin verilen dosya türleri:"
+
+#: media/js/utils/file_upload_dialog.js:249
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:35
+msgid "Or paste file url here"
+msgstr "Veya buraya bir adres yapıştırın"
+
+#: media/js/utils/group_dropdown.js:18
+msgid "group name"
+msgstr "grup adı"
+
+#: media/js/utils/group_dropdown.js:26
+msgid "add new group"
+msgstr "yeni grup ekle"
+
+#: media/js/utils/group_dropdown.js:118
+msgid "Group %(name)s already exists. Group names are case-insensitive."
+msgstr "%(name)s grubu zaten mevcut. Grup adları büyük küçüğe duyarlı değildir."
+
+#: media/js/utils/modal_dialog.js:7
+msgid "Ok"
+msgstr "Tamam"
+
+#: media/js/utils/paginator.js:115
+#, c-format
+msgid "page %s"
+msgstr "sayfa %s"
+
+#: media/js/utils/tag.js:122
+#, c-format
+msgid "see questions tagged '%s'"
+msgstr "'%s' ile etiketlenmiş soruları gör"
+
+#: media/js/utils/text_property_editor.js:47
+msgid "Save"
+msgstr "Kaydet"
+
+#: media/js/utils/text_property_editor.js:119
+msgid "saved"
+msgstr "kaydedildi"
+
+#: media/js/utils/toggle.js:88 media/js/utils/toggle.js.c:103
+msgid "enabled"
+msgstr "etkin"
+
+#: media/js/utils/toggle.js:89 media/js/utils/toggle.js.c:104
+msgid "disabled"
+msgstr "devre dışı"
+
+#: media/jslib/timeago.js:90
+msgid "Jan"
+msgstr "Oca"
+
+#: media/jslib/timeago.js:91
+msgid "Feb"
+msgstr "Şub"
+
+#: media/jslib/timeago.js:92
+msgid "Mar"
+msgstr "Mar"
+
+#: media/jslib/timeago.js:93
+msgid "Apr"
+msgstr "Nis"
+
+#: media/jslib/timeago.js:94
+msgid "May"
+msgstr "May"
+
+#: media/jslib/timeago.js:95
+msgid "Jun"
+msgstr "Haz"
+
+#: media/jslib/timeago.js:96
+msgid "Jul"
+msgstr "Tem"
+
+#: media/jslib/timeago.js:97
+msgid "Aug"
+msgstr "Ağu"
+
+#: media/jslib/timeago.js:98
+msgid "Sep"
+msgstr "Eyl"
+
+#: media/jslib/timeago.js:99
+msgid "Oct"
+msgstr "Eki"
+
+#: media/jslib/timeago.js:100
+msgid "Nov"
+msgstr "Kas"
+
+#: media/jslib/timeago.js:101
+msgid "Dec"
+msgstr "Ara"
+
+#: media/jslib/timeago.js:113
+msgid "2 days ago"
+msgstr "2 gün önce"
+
+#: media/jslib/timeago.js:115
+msgid "yesterday"
+msgstr "dün"
+
+#: media/jslib/timeago.js:120
+#, c-format
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "%s saat önce"
+msgstr[1] "%s saat önce"
+
+#: media/jslib/timeago.js:130
+#, c-format
+msgid "%s min ago"
+msgid_plural "%s mins ago"
+msgstr[0] "%s dakika önce"
+msgstr[1] "%s dakika önce"
+
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:71
+msgid "Insert a file"
+msgstr "Bir dosya ekle"
+
+#: media/tinymce/plugins/askbot_imageuploader/editor_plugin.js:70
+msgid "Insert image"
+msgstr "Resim ekle"
+
+#: media/wmd/wmd.js:31
+msgid "bold"
+msgstr "kalın"
+
+#: media/wmd/wmd.js:32
+msgid "italic"
+msgstr "yatık"
+
+#: media/wmd/wmd.js:33
+msgid "link"
+msgstr "bağlantı"
+
+#: media/wmd/wmd.js:34
+msgid "quote"
+msgstr "alıntı"
+
+#: media/wmd/wmd.js:35
+msgid "preformatted text"
+msgstr "hazır metin"
+
+#: media/wmd/wmd.js:36
+msgid "image"
+msgstr "resim"
+
+#: media/wmd/wmd.js:37
+msgid "attachment"
+msgstr "ek"
+
+#: media/wmd/wmd.js:38
+msgid "numbered list"
+msgstr "numaralı liste"
+
+#: media/wmd/wmd.js:39
+msgid "bulleted list"
+msgstr "madde imli liste"
+
+#: media/wmd/wmd.js:40
+msgid "heading"
+msgstr "başlık"
+
+#: media/wmd/wmd.js:41
+msgid "horizontal bar"
+msgstr "yatay çubuk"
+
+#: media/wmd/wmd.js:42
+msgid "undo"
+msgstr "geri al"
+
+#: media/wmd/wmd.js:43 media/wmd/wmd.js.c:1171
+msgid "redo"
+msgstr "yeniden"
+
+#: media/wmd/wmd.js:54
+msgid "enter image url"
+msgstr "resmin URLsini girin, örn. http://www.example.com/resim.jpg veya bir resim dosyası yükleyin"
+
+#: media/wmd/wmd.js:55
+msgid "enter url"
+msgstr "web adresini girin, örn. http://www.example.com \"sayfa başlığı\""
+
+#: media/wmd/wmd.js:56
+msgid "upload file attachment"
+msgstr "ekteki dosyayı yollayın"
+
+#: media/wmd/wmd.js:1686
+msgid "strong text"
+msgstr "kalın metin"
+
+#: media/wmd/wmd.js:1690
+msgid "emphasized text"
+msgstr "vurgulu metin"
+
+#: media/wmd/wmd.js:1844
+msgid "image description"
+msgstr "resmin açıklaması"
+
+#: media/wmd/wmd.js:1847
+msgid "file name"
+msgstr "dosya adı"
+
+#: media/wmd/wmd.js:1851
+msgid "link text"
+msgstr "bağlantı metni"
+
+#: media/wmd/wmd.js:2284 media/wmd/wmd.js.c:2304
+msgid "enter code here"
+msgstr "kodu buraya girin"
+
+#: media/wmd/wmd.js:2398
+msgid "List item"
+msgstr "Liste ögesi"
+
+#: media/wmd/wmd.js:2430
+msgid "Heading"
+msgstr "Başlık"
+
+#~ msgid "%(question)s must have > %(length)s character"
+#~ msgid_plural "%(question)s must have > %(length)s characters"
+#~ msgstr[0] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_0"
+#~ msgstr[1] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_1"
+
+#~ msgid "anonymous users cannot %(follow_questions)s"
+#~ msgstr "sorry, anonymous users cannot vote "
+
+#~ msgid "Follow"
+#~ msgstr "Follow"
+
+#~ msgid "<div class=\"following\">Following</div><div class=\"unfollow\">Unfollow</div>"
+#~ msgstr "<div>Following</div><div class=\"unfollow\">Unfollow</div>"
+
+#~ msgid "cannot pick own answer as best"
+#~ msgstr "sorry, you cannot accept your own answer"
+
+#~ msgid "please confirm offensive"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "please confirm removal of offensive flag"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "Post deleted"
+#~ msgstr "your post has been deleted"
+
+#~ msgid "Post approved"
+#~ msgstr "your post is now restored!"
+
+#~ msgid "post a comment"
+#~ msgstr "save comment"
+
+#~ msgid "%s content minchars"
+#~ msgstr "please enter more than %s characters"
+
+#~ msgid "%s title minchars"
+#~ msgstr "please enter at least %s characters"

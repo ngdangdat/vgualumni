@@ -1,0 +1,85 @@
+# Satchmo Translation Package
+# Copyright (C) 2008 Satchmo Project
+# This file is distributed under the same license as the PACKAGE package.
+# N.L. <kotorinl@yahoo.co.uk>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Satchmo svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-10 09:16-0600\n"
+"PO-Revision-Date: 2008-04-30 23:35+0100\n"
+"Last-Translator: N.L. <kotorinl@yahoo.co.uk>\n"
+"Language-Team: Group\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Basepath: ../../../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: SWEDEN\n"
+
+#: deps/livesettings/models.py:107 deps/livesettings/models.py:153
+msgid "Site"
+msgstr ""
+
+#: deps/livesettings/values.py:80
+msgid "Main"
+msgstr ""
+
+#: deps/livesettings/values.py:141
+msgid "Base Settings"
+msgstr "Grundinställningar"
+
+#: deps/livesettings/values.py:257 deps/livesettings/values.py:291
+msgid "Default value: "
+msgstr "Förvalt värde:"
+
+#: deps/livesettings/values.py:259
+#, python-format
+msgid "Default value: %s"
+msgstr "Förvalt värde: %s"
+
+#: deps/livesettings/values.py:765
+#, python-format
+msgid "Allowed image file types are %(types)s"
+msgstr ""
+
+#~ msgid "Default value: \"\""
+#~ msgstr "Förvalt värde: \"\""
+
+#~ msgid "Home"
+#~ msgstr "Hem"
+
+#~ msgid "Log out"
+#~ msgstr "Logga ut"
+
+#~ msgid "Please correct the error below."
+#~ msgid_plural "Please correct the errors below."
+#~ msgstr[0] "Var god rätta till felet nedan."
+#~ msgstr[1] "Var god rätta till felen nedan."
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
+
+#~ msgid "Change password"
+#~ msgstr "Byt lösenord"
+
+#~ msgid "Edit Site Settings"
+#~ msgstr "Ändra sajtinställningar"
+
+#~ msgid "Edit Group Settings"
+#~ msgstr "Redigera gruppinställningar"
+
+#~ msgid "Settings included in %(name)s."
+#~ msgstr "Inställningar som ingår i %(name)s."
+
+#~ msgid "You don't have permission to edit values."
+#~ msgstr "Du har inte tillåtelse att ändra värden."
+
+#~ msgid "Group settings: %(name)s"
+#~ msgstr "Gruppinställningar: %(name)s"
+
+#~ msgid "Uncollapse all"
+#~ msgstr "Visa alla"

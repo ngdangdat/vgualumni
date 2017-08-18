@@ -1,0 +1,85 @@
+# Satchmo Translation Package
+# Copyright (C) 2008 Satchmo Project
+# Jacques Moulin <jacques@tpi.be>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-10 09:16-0600\n"
+"PO-Revision-Date: 2008-11-02 17:51+0100\n"
+"Last-Translator: Jacques Moulin <jacques@tpi.be>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: deps/livesettings/models.py:107 deps/livesettings/models.py:153
+msgid "Site"
+msgstr "Site"
+
+#: deps/livesettings/values.py:80
+msgid "Main"
+msgstr ""
+
+#: deps/livesettings/values.py:141
+msgid "Base Settings"
+msgstr "Configuration de base"
+
+#: deps/livesettings/values.py:257 deps/livesettings/values.py:291
+msgid "Default value: "
+msgstr "Valeur par défaut:"
+
+#: deps/livesettings/values.py:259
+#, python-format
+msgid "Default value: %s"
+msgstr "Valeur par défaut: %s"
+
+#: deps/livesettings/values.py:765
+#, python-format
+msgid "Allowed image file types are %(types)s"
+msgstr ""
+
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgid "Default value: \"\""
+#~ msgstr "Valeur par défaut: \"\""
+
+#~ msgid "Documentation"
+#~ msgstr "Documentation"
+
+#~ msgid "Change password"
+#~ msgstr "Modifier le mot de passe"
+
+#~ msgid "Log out"
+#~ msgstr "Se déconnecter"
+
+#~ msgid "Edit Group Settings"
+#~ msgstr "Editer les paramètres de groupe"
+
+#~ msgid "Please correct the error below."
+#~ msgid_plural "Please correct the errors below."
+#~ msgstr[0] "Veuillez corriger l'erreur ci-dessous:"
+#~ msgstr[1] "Veuillez corriger les erreurs ci-dessous:"
+
+#~ msgid "Settings included in %(name)s."
+#~ msgstr "Paramètres inclus dans %(name)s."
+
+#~ msgid "You don't have permission to edit values."
+#~ msgstr "Vous n'avez pas le droit d'éditer les valeurs."
+
+#~ msgid "Edit Site Settings"
+#~ msgstr "Editer les paramètres du site"
+
+#~ msgid "Group settings: %(name)s"
+#~ msgstr "Paramètres du groupe: %(name)s"
+
+#~ msgid "Uncollapse all"
+#~ msgstr "Déployer tout"
+
+#~ msgid "Sites"
+#~ msgstr "Sites"

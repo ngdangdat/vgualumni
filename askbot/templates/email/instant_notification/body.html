@@ -1,0 +1,57 @@
+{% extends "email/base_mail.html"%}
+{% from "email/macros.html" import quoted_post, emailed_user_info, info_text_style %}
+{% block content %}
+    {% if can_reply %}
+        {{ reply_sep_tpl|format(gettext('To reply, PLEASE WRITE ABOVE THIS LINE')) }}
+        {% if post.is_question() and alt_reply_address %}
+            {% set addr=alt_reply_address %}
+            {% set subject=alt_reply_subject %}
+            <p style="{{ info_text_style() }}">
+            {% trans addr=alt_reply_address %}Note: to reply with a comment, please use 
+                <a href="mailto:{{ addr }}?subject={{ subject }}">this link</a>
+            {% endtrans %}
+            </p>
+        {% endif %}
+    {% endif %}
+    <div>
+        {% if update_type.endswith('update') %}
+
+            {% set is_anon=post.get_latest_revision().is_anonymous %}
+            {% set author %}{{ emailed_user_info(recipient_user, post.last_edited_by, is_anon) }}{% endset %}
+            {# todo: possibly add phrases to askbot/conf/words.py for question and answer #}
+            <p style="{{ info_text_style() }}">
+                {% trans %}{{ author }} edited a <a href="{{ post_url }}">post</a>{% endtrans %}
+            </p>
+
+            {{ post.get_latest_revision_diff(
+                    ins_start='<b><u style="background-color:#cfc">',
+                    ins_end='</u></b>',
+                    del_start='<del style="color:#600;background-color:#fcc">',
+                    del_end='</del>'
+                )|safe
+            }}
+
+        {% else %}
+            {{ quoted_post(post=post, recipient=recipient_user, is_leaf_post=True) }}
+        {% endif %}
+
+        {% set quote_level=1 %}
+        {% for parent_post in post.get_parent_post_chain() %}
+            {{ quoted_post(
+                            post=parent_post,
+                            format='parent_subthread',
+                            recipient=recipient_user,
+                            quote_level=quote_level
+                          )
+            }}
+            {% set quote_level=quote_level + 1 %}
+        {% endfor %}
+    </div>
+    {% include "email/change_settings_info.html" %}
+{% endblock %}
+{% block footer %}
+    {% include "email/footer.html" %}
+    {% if can_reply %}
+        <p style="font-size:8px;color:#aaa">{{ reply_address }}</p>
+    {% endif %}
+{% endblock %}

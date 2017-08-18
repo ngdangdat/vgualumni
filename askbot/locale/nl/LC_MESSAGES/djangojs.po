@@ -1,0 +1,752 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# cor nouws <nouwsc@xs4all.nl>, 2017
+# kees kriek <kees538@gmail.com>, 2016
+# Rob Westein <robwestein@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: askbot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-03 09:49-0600\n"
+"PO-Revision-Date: 2017-04-04 19:01+0000\n"
+"Last-Translator: cor nouws <nouwsc@xs4all.nl>\n"
+"Language-Team: Dutch (http://www.transifex.com/askbot/askbot/language/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: media/js/group_messaging.js:132
+msgid "Type a message"
+msgstr "Typ een bericht"
+
+#: media/js/group_messaging.js:141
+msgid "Add a recipient"
+msgstr "Voeg een ontvanger toe"
+
+#: media/js/group_messaging.js:171
+msgid "message sent"
+msgstr "bericht verzonden"
+
+#: media/js/group_messaging.js:187
+msgid ""
+"Did you mean to send your message to muliple users? Use comma instead of "
+"whitespaces"
+msgstr "Wilde u uw bericht naar meerdere gebruikers sturen? Gebruik comma's ipv spaties."
+
+#: media/js/group_messaging.js:191
+msgid "user {{str}} does not exist"
+msgid_plural "users {{str}} do not exist"
+msgstr[0] "gebruiker {{str}} bestaat niet"
+msgstr[1] "gebruikers {{str}} bestaan niet"
+
+#: media/js/group_messaging.js:198
+msgid "cannot send message to yourself"
+msgstr "kan geen bericht naar uzelf sturen"
+
+#: media/js/live_search.js:198
+msgid "To see search results, 2 or more characters may be required"
+msgstr "Om zoekresultaten te kunnen zien zijn er 2 of meer tekens nodig"
+
+#: media/js/live_search.js:220
+msgid "Ask Your Question"
+msgstr "Stel uw vraag"
+
+#: media/js/live_search.js:301
+msgid "Sorry, this tag does not exist"
+msgid_plural "Sorry, these tags do not exist"
+msgstr[0] "Sorry, deze label bestaat niet"
+msgstr[1] "Sorry, deze labels bestaan niet"
+
+#: media/js/live_search.js:315
+msgid "Search or ask your question"
+msgstr ""
+
+#: media/js/post.js:28
+msgid "loading..."
+msgstr "laden.."
+
+#: media/js/post.js:137 media/js/post.js.c:176 media/js/post.js.c:229
+#: media/js/post.js:253
+msgid "enter > %(length)s character"
+msgid_plural "enter > %(length)s characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: media/js/post.js:155 media/js/post.js.c:218
+#, c-format
+msgid "details must have > %s character"
+msgid_plural "details must have > %s characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: media/js/post.js:209 media/js/post.js.c:1457
+msgid "tags cannot be empty"
+msgstr "voer tenminste één label in"
+
+#: media/js/post.js:215
+msgid "details are required"
+msgstr "details zijn vereist"
+
+#: media/js/post.js:226
+msgid "enter your question"
+msgstr "voer uw vraag in"
+
+#: media/js/post.js:250
+msgid "content cannot be empty"
+msgstr "inhoud kan niet leeg zijn"
+
+#: media/js/post.js:311
+msgid "Back to the question"
+msgstr "Terug naar de vraag"
+
+#: media/js/post.js:382 media/js/post.js.c:426 media/js/post.js.c:512
+msgid "Load preview"
+msgstr "Voorbeeld laden"
+
+#: media/js/post.js:420
+msgid "Merge"
+msgstr "Samenvoegen"
+
+#: media/js/post.js:511 media/js/utils/modal_dialog.js:9
+#: media/js/utils/text_property_editor.js:48
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: media/js/post.js:561
+msgid "draft saved..."
+msgstr "concept opgeslagen"
+
+#: media/js/post.js:781
+#, c-format
+msgid "%s follower"
+msgid_plural "%s followers"
+msgstr[0] "%s volger"
+msgstr[1] "%s volgers"
+
+#: media/js/post.js:819
+msgid "insufficient privilege"
+msgstr "onvoldoende rechten"
+
+#: media/js/post.js:821 media/js/post.js.c:1606
+msgid "please login"
+msgstr "log in"
+
+#: media/js/post.js:824
+msgid "anonymous users cannot subscribe to questions"
+msgstr "anonieme gebruikers kunnen zich niet op vragen inschrijven"
+
+#: media/js/post.js:825 media/js/post.js.c:1616
+msgid "anonymous users cannot vote"
+msgstr "sorry, anonieme gebruikers kunnen niet stemmen"
+
+#: media/js/post.js:827
+msgid "anonymous users cannot flag offensive posts"
+msgstr ""
+
+#: media/js/post.js:828
+msgid "confirm delete"
+msgstr "weet u zeker dat u dit wilt verwijderen?"
+
+#: media/js/post.js:829
+msgid "anonymous users cannot delete/undelete"
+msgstr "sorry, anonieme gebruikers kunnen berichten niet verwijderen of herstellen"
+
+#: media/js/post.js:830
+msgid "post recovered"
+msgstr "uw inzending is nu teruggeplaatst!"
+
+#: media/js/post.js:831
+msgid "post deleted"
+msgstr "uw inzending is verwijderd"
+
+#: media/js/post.js:1047
+msgid "sorry, you cannot %(accept_own_answer)s"
+msgstr ""
+
+#: media/js/post.js:1101
+msgid "remove flag"
+msgstr "verwijder label"
+
+#: media/js/post.js:1135 media/js/post.js.c:1166
+msgid "flag offensive"
+msgstr ""
+
+#: media/js/post.js:1191 media/js/post.js.c:1687
+msgid "undelete"
+msgstr "herstellen"
+
+#: media/js/post.js:1195 media/js/post.js.c:1691
+msgid "delete"
+msgstr "verwijderen"
+
+#: media/js/post.js:1397 media/js/post.js.c:1635
+msgid "sorry, something is not right here"
+msgstr "sorry, er is iets niet goed hier"
+
+#: media/js/post.js:1865
+msgid "Preview: (hide)"
+msgstr "Voorbeeld: (verbergen)"
+
+#: media/js/post.js:1866
+msgid "Show preview"
+msgstr "Voorbeeld weergeven"
+
+#: media/js/post.js:2283
+msgid "add comment"
+msgstr "opmerking toevoegen"
+
+#: media/js/post.js:2288
+msgid "save comment"
+msgstr "opmerking opslaan"
+
+#: media/js/post.js:2332
+#, c-format
+msgid "enter at least %s characters"
+msgstr "voer tenminste %s tekens in"
+
+#: media/js/post.js:2334
+#, c-format
+msgid "enter at least %s more characters"
+msgstr "type tenminste %s meer tekens"
+
+#: media/js/post.js:2346
+#, c-format
+msgid "%s characters left"
+msgstr "%s tekens over"
+
+#: media/js/post.js:2348
+msgid "maximum comment length reached"
+msgstr "maximum lengte opmerking bereikt"
+
+#: media/js/post.js:2451 media/js/post.js.c:3370 media/js/post.js.c:4921
+#: media/js/user/group_adder_widget.js:17 media/js/utils/editable.js:319
+msgid "cancel"
+msgstr "annuleren"
+
+#: media/js/post.js:2466
+msgid "minor edit (don't send alerts)"
+msgstr "geringe bewerking (stuur geen alerts)"
+
+#: media/js/post.js:2498
+msgid "Are you sure you don't want to post this comment?"
+msgstr "Weet u zeker dat u deze opmerking niet wilt versturen?"
+
+#: media/js/post.js:2543 media/jslib/timeago.js:137
+msgid "just now"
+msgstr "zojuist"
+
+#: media/js/post.js:2620
+msgid "delete this comment"
+msgstr "verwijder deze opmerking"
+
+#: media/js/post.js:2918
+msgid "confirm delete comment"
+msgstr "wilt u deze opmerking echt verwijderen?"
+
+#: media/js/post.js:3087
+msgid "please sign in or register to post comments"
+msgstr "Log in of registreer om opmerkingen te kunnen plaatsen"
+
+#: media/js/post.js:3364 media/js/post.js.c:4185 media/js/post.js.c:4378
+#: media/js/utils/editable.js:314
+msgid "save"
+msgstr "opslaan"
+
+#: media/js/post.js:3489
+msgid "Enter the logo url or upload an image"
+msgstr ""
+
+#: media/js/post.js:3515
+msgid "Do you really want to remove the image?"
+msgstr "Weet u zeker dat u deze afbeelding wilt verwijderen?"
+
+#: media/js/post.js:3631
+msgid "change logo"
+msgstr "verander logo"
+
+#: media/js/post.js:3632
+msgid "add logo"
+msgstr "logo toevoegen"
+
+#: media/js/post.js:3736
+#, c-format
+msgid "tag \"%s\" was already added, no need to repeat (press \"escape\" to delete)"
+msgstr "label \"%s\" was al toegevoegd, geen reden om opnieuw toe te voegen (druk \"Esc\" om te verwijderen)"
+
+#: media/js/post.js:3745
+#, c-format
+msgid "a maximum of %s tag is allowed"
+msgid_plural "a maximum of %s tags are allowed"
+msgstr[0] "eem maximum van %s label is toegestaan"
+msgstr[1] "eem maximum van %s labels worden toegestaan"
+
+#: media/js/post.js:4114
+msgid "Delete category?"
+msgstr "Categorie verwijderen?"
+
+#: media/js/post.js:4204 media/js/utils/edit_link.js:15
+msgid "edit"
+msgstr "bewerken"
+
+#: media/js/post.js:4291
+msgid "category name cannot be empty"
+msgstr "categorienaam kan niet leeg zijn"
+
+#: media/js/post.js:4328
+msgid "already exists at the current level!"
+msgstr "bestaat al op het huidige niveau"
+
+#: media/js/post.js:4364
+msgid "add category"
+msgstr "voer categorie in"
+
+#: media/js/post.js:4917
+msgid "save tags"
+msgstr "labels opslaan"
+
+#: media/js/post.js:4949 media/js/editors/folded_editor.js:38
+msgid "Sorry, you have only read access"
+msgstr "Sorry, u heeft alleen lees toegang"
+
+#: media/js/post.js:5022
+msgid "Group name:"
+msgstr "Groepsnaam:"
+
+#: media/js/post.js:5048
+msgid "Shared with the following users:"
+msgstr "gedeeld met de volgende gebruikers:"
+
+#: media/js/post.js:5054
+msgid "Shared with the following groups:"
+msgstr "Gedeeld met de volgende groepen:"
+
+#: media/js/tag_selector.js:14
+msgid "Tag \"<span></span>\" matches:"
+msgstr ""
+
+#: media/js/tag_selector.js:91
+#, c-format
+msgid "and %s more, not shown..."
+msgstr "en %s meer, niet weergegeven..."
+
+#: media/js/user.js:50
+msgid "Please <a href=\"%(signin_url)s\">signin</a> to follow %(username)s"
+msgstr ""
+
+#: media/js/utils.js:206
+msgid "must be shorter than %(max_chars)s character"
+msgid_plural "must be shorter than %(max_chars)s characters"
+msgstr[0] "moet korter zijn dan %(max_chars)s karakter"
+msgstr[1] "moet korter zijn dan %(max_chars)s karakters"
+
+#: media/js/utils.js:274
+msgid "and"
+msgstr "en"
+
+#: media/js/utils.js:292
+msgid "click to close"
+msgstr "klik om te sluiten"
+
+#: media/js/jquery-openid/jquery.authenticator.js:73
+#, c-format
+msgid "Are you sure you want to remove your %s login?"
+msgstr "Weet u zeker dat u uw login %s wilt verwijderen?"
+
+#: media/js/jquery-openid/jquery.authenticator.js:90
+msgid "Please add one or more login methods."
+msgstr "Voeg één of meerdere inlog-methodes toe"
+
+#: media/js/jquery-openid/jquery.authenticator.js:93
+msgid ""
+"You don't have a method to log in right now, please add one or more by "
+"clicking any of the icons below."
+msgstr "U heeft op dit moment nog geen inlog-methode. Kies er één door op één van onderstaande pictogrammen te klikken."
+
+#: media/js/jquery-openid/jquery.authenticator.js:147
+msgid "enter username"
+msgstr "gebruikersnaam invoeren"
+
+#: media/js/jquery-openid/jquery.authenticator.js:149
+msgid "enter username or email"
+msgstr "gebruikersnaam of emailadres invoeren"
+
+#: media/js/jquery-openid/jquery.authenticator.js:158
+msgid "enter password"
+msgstr "wachtwoord invoeren"
+
+#: media/js/jquery-openid/jquery.authenticator.js:180
+msgid "passwords do not match"
+msgstr "wachtwoorden komen niet overeen"
+
+#: media/js/jquery-openid/jquery.authenticator.js:206
+msgid "Show/change current login methods"
+msgstr "Huidige inlog-methodes weergeven/wijzigen"
+
+#: media/js/jquery-openid/jquery.authenticator.js:262
+#, c-format
+msgid "Please enter your %s, then proceed"
+msgstr "Voer uw %s in en ga dan verder"
+
+#: media/js/jquery-openid/jquery.authenticator.js:264
+msgid "Connect your %(provider_name)s account to %(site)s"
+msgstr ""
+
+#: media/js/jquery-openid/jquery.authenticator.js:362
+#, c-format
+msgid "Change your %s password"
+msgstr "Wijzig uw %s wachtwoord"
+
+#: media/js/jquery-openid/jquery.authenticator.js:363
+msgid "Change password"
+msgstr "Wachtwoord wijzigen"
+
+#: media/js/jquery-openid/jquery.authenticator.js:365
+#, c-format
+msgid "Create a password for %s"
+msgstr "Maak een wachtwoord voor %s"
+
+#: media/js/jquery-openid/jquery.authenticator.js:366
+msgid "Create password"
+msgstr "Wachtwoord maken"
+
+#: media/js/jquery-openid/jquery.authenticator.js:377
+msgid "Create a password-protected account"
+msgstr "Maak een wachtwoord beveiligd account"
+
+#: media/js/user/group_adder_widget.js:12
+msgid "add group"
+msgstr "groep toevoegen"
+
+#: media/js/user/group_adder_widget.js:92
+msgid "add"
+msgstr "toevoegen"
+
+#: media/js/user/manage_reject_reasons_dialog.js:90
+msgid "Looks there are some things to fix:"
+msgstr "Het lijkt erop dat er wat opgelost moet worden"
+
+#: media/js/user/manage_reject_reasons_dialog.js:158
+msgid "Please provide description."
+msgstr "Voeg aub een beschrijving toe"
+
+#: media/js/user/manage_reject_reasons_dialog.js:161
+msgid "Please provide details."
+msgstr "Lever a.u.b details aan."
+
+#: media/js/user/manage_reject_reasons_dialog.js:248
+msgid "A reason must be selected to delete one."
+msgstr "Er moet een reden geselecteerd worden om er één te verwijderen."
+
+#: media/js/user/post_moderation_controls.js:77
+#: media/js/user/response_notifs.js:30 media/js/user/response_notifs.js.c:107
+msgid "Please select at least one item"
+msgstr "Selecteer tenminste één item"
+
+#: media/js/user/post_moderation_controls.js:113
+msgid "Load more items."
+msgstr "Laad meer items"
+
+#: media/js/utils/comment_convert_link.js:26
+msgid "convert to answer"
+msgstr "omzetten naar antwoord"
+
+#: media/js/utils/edit_link.js:14
+msgid "click to edit this comment"
+msgstr "klik om deze opmerkinge bij te werken"
+
+#: media/js/utils/file_upload_dialog.js:138
+#, c-format
+msgid "Uploaded file: %s"
+msgstr ""
+
+#: media/js/utils/file_upload_dialog.js:152
+msgid "Choose a different file"
+msgstr "Kies een ander bestand"
+
+#: media/js/utils/file_upload_dialog.js:154
+msgid "Choose a different image"
+msgstr "Kies een andere afbeelding"
+
+#: media/js/utils/file_upload_dialog.js:168
+msgid "Oops, looks like we had an error. Sorry."
+msgstr "Oeps, zo te zien gaat er iets fout. Sorry"
+
+#: media/js/utils/file_upload_dialog.js:228
+msgid "Choose a file to insert"
+msgstr "Kies een bestand om in te voegen"
+
+#: media/js/utils/file_upload_dialog.js:230
+msgid "Choose an image to insert"
+msgstr "Kies een afbeelding om in te voegen"
+
+#: media/js/utils/file_upload_dialog.js:243
+msgid "Allowed file types are:"
+msgstr "Toegestane bestandstypen zijn:"
+
+#: media/js/utils/file_upload_dialog.js:249
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:35
+msgid "Or paste file url here"
+msgstr "Of plak het bestands url hier"
+
+#: media/js/utils/group_dropdown.js:18
+msgid "group name"
+msgstr "groepsnaam"
+
+#: media/js/utils/group_dropdown.js:26
+msgid "add new group"
+msgstr "nieuwe groep toevoegen"
+
+#: media/js/utils/group_dropdown.js:118
+msgid "Group %(name)s already exists. Group names are case-insensitive."
+msgstr ""
+
+#: media/js/utils/modal_dialog.js:7
+msgid "Ok"
+msgstr "Ok"
+
+#: media/js/utils/paginator.js:115
+#, c-format
+msgid "page %s"
+msgstr "pagina %s"
+
+#: media/js/utils/tag.js:122
+#, c-format
+msgid "see questions tagged '%s'"
+msgstr "zie vraag gelabeld '%s'"
+
+#: media/js/utils/text_property_editor.js:47
+msgid "Save"
+msgstr "Opslaan"
+
+#: media/js/utils/text_property_editor.js:119
+msgid "saved"
+msgstr "opgeslagen"
+
+#: media/js/utils/toggle.js:88 media/js/utils/toggle.js.c:103
+msgid "enabled"
+msgstr "ingeschakeld"
+
+#: media/js/utils/toggle.js:89 media/js/utils/toggle.js.c:104
+msgid "disabled"
+msgstr "uitgeschakeld"
+
+#: media/jslib/timeago.js:90
+msgid "Jan"
+msgstr "jan"
+
+#: media/jslib/timeago.js:91
+msgid "Feb"
+msgstr "feb"
+
+#: media/jslib/timeago.js:92
+msgid "Mar"
+msgstr "mrt"
+
+#: media/jslib/timeago.js:93
+msgid "Apr"
+msgstr "apr"
+
+#: media/jslib/timeago.js:94
+msgid "May"
+msgstr "mei"
+
+#: media/jslib/timeago.js:95
+msgid "Jun"
+msgstr "jun"
+
+#: media/jslib/timeago.js:96
+msgid "Jul"
+msgstr "jul"
+
+#: media/jslib/timeago.js:97
+msgid "Aug"
+msgstr "aug"
+
+#: media/jslib/timeago.js:98
+msgid "Sep"
+msgstr "sep"
+
+#: media/jslib/timeago.js:99
+msgid "Oct"
+msgstr "okt"
+
+#: media/jslib/timeago.js:100
+msgid "Nov"
+msgstr "nov"
+
+#: media/jslib/timeago.js:101
+msgid "Dec"
+msgstr "dec"
+
+#: media/jslib/timeago.js:113
+msgid "2 days ago"
+msgstr "2 dagen geleden"
+
+#: media/jslib/timeago.js:115
+msgid "yesterday"
+msgstr "gisteren"
+
+#: media/jslib/timeago.js:120
+#, c-format
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "%s uur geleden"
+msgstr[1] "%s uren geleden"
+
+#: media/jslib/timeago.js:130
+#, c-format
+msgid "%s min ago"
+msgid_plural "%s mins ago"
+msgstr[0] "%s minuut geleden"
+msgstr[1] "%s minuten geleden"
+
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:71
+msgid "Insert a file"
+msgstr "Voeg een bestand in"
+
+#: media/tinymce/plugins/askbot_imageuploader/editor_plugin.js:70
+msgid "Insert image"
+msgstr "Voeg een afbeelding in"
+
+#: media/wmd/wmd.js:31
+msgid "bold"
+msgstr "vet"
+
+#: media/wmd/wmd.js:32
+msgid "italic"
+msgstr "cursief"
+
+#: media/wmd/wmd.js:33
+msgid "link"
+msgstr "koppeling"
+
+#: media/wmd/wmd.js:34
+msgid "quote"
+msgstr "aanhalingsteken"
+
+#: media/wmd/wmd.js:35
+msgid "preformatted text"
+msgstr "vooraf opgemaakte tekst"
+
+#: media/wmd/wmd.js:36
+msgid "image"
+msgstr "afbeelding"
+
+#: media/wmd/wmd.js:37
+msgid "attachment"
+msgstr "bijlage"
+
+#: media/wmd/wmd.js:38
+msgid "numbered list"
+msgstr "genummerde lijst"
+
+#: media/wmd/wmd.js:39
+msgid "bulleted list"
+msgstr "lijst met opsommingstekens"
+
+#: media/wmd/wmd.js:40
+msgid "heading"
+msgstr "kop"
+
+#: media/wmd/wmd.js:41
+msgid "horizontal bar"
+msgstr "horizontale balk"
+
+#: media/wmd/wmd.js:42
+msgid "undo"
+msgstr "ongedaan maken"
+
+#: media/wmd/wmd.js:43 media/wmd/wmd.js.c:1171
+msgid "redo"
+msgstr "overdoen"
+
+#: media/wmd/wmd.js:54
+msgid "enter image url"
+msgstr "voer de URL van de afbeelding in, zoals http://www.voorbeeld.com/afbeelding.jpg of upload een afbeeldingsbestand"
+
+#: media/wmd/wmd.js:55
+msgid "enter url"
+msgstr ""
+
+#: media/wmd/wmd.js:56
+msgid "upload file attachment"
+msgstr "Kies en upload en bestand:"
+
+#: media/wmd/wmd.js:1686
+msgid "strong text"
+msgstr "sterke tekst"
+
+#: media/wmd/wmd.js:1690
+msgid "emphasized text"
+msgstr "benadrukte tekst"
+
+#: media/wmd/wmd.js:1844
+msgid "image description"
+msgstr "afbeeldings-beschrijving"
+
+#: media/wmd/wmd.js:1847
+msgid "file name"
+msgstr "bestandsnaam"
+
+#: media/wmd/wmd.js:1851
+msgid "link text"
+msgstr "tekst koppelen"
+
+#: media/wmd/wmd.js:2284 media/wmd/wmd.js.c:2304
+msgid "enter code here"
+msgstr "voer hier de code in"
+
+#: media/wmd/wmd.js:2398
+msgid "List item"
+msgstr "lijstitem"
+
+#: media/wmd/wmd.js:2430
+msgid "Heading"
+msgstr "Kop"
+
+#~ msgid "%(question)s must have > %(length)s character"
+#~ msgid_plural "%(question)s must have > %(length)s characters"
+#~ msgstr[0] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_0"
+#~ msgstr[1] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_1"
+
+#~ msgid "anonymous users cannot %(follow_questions)s"
+#~ msgstr "sorry, anonymous users cannot vote "
+
+#~ msgid "Follow"
+#~ msgstr "Follow"
+
+#~ msgid "<div class=\"following\">Following</div><div class=\"unfollow\">Unfollow</div>"
+#~ msgstr "<div>Following</div><div class=\"unfollow\">Unfollow</div>"
+
+#~ msgid "cannot pick own answer as best"
+#~ msgstr "sorry, you cannot accept your own answer"
+
+#~ msgid "please confirm offensive"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "please confirm removal of offensive flag"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "Post deleted"
+#~ msgstr "your post has been deleted"
+
+#~ msgid "Post approved"
+#~ msgstr "your post is now restored!"
+
+#~ msgid "post a comment"
+#~ msgstr "save comment"
+
+#~ msgid "%s content minchars"
+#~ msgstr "please enter more than %s characters"
+
+#~ msgid "%s title minchars"
+#~ msgstr "please enter at least %s characters"

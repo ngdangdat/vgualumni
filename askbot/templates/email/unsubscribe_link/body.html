@@ -1,0 +1,6 @@
+{% extends "email/base_mail.html"%}
+{% block content %}
+    {% set base_url = 'user_unsubscribe'|url() %}
+    {% set unsubscribe_url = ((base_url, "?key=", key, "&email=", email)|join('')|escape) %}
+    {% trans %}To unsubscribe, visit <a href="{{ unsubscribe_url }}">this page</a>{% endtrans %}
+{% endblock %}

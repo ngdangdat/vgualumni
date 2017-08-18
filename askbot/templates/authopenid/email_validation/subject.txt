@@ -1,0 +1,1 @@
+{% trans %}Validate your {{ site_name }} email{% endtrans %}

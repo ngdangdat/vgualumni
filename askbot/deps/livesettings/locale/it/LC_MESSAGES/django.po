@@ -1,0 +1,93 @@
+# translation of django.po to Italiano
+# Copyright (C) 2008 Satchmo Project
+# This file is distributed under the same license as the PACKAGE package.
+#
+# costantino giuliodori <costantino.giuliodori@gmail.com>, 2007.
+# Alessandro Ronchi <alessandro.ronchi@soasi.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: django\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-10 09:16-0600\n"
+"PO-Revision-Date: 2008-09-30 13:13+0200\n"
+"Last-Translator: Alessandro Ronchi <alessandro.ronchi@soasi.com>\n"
+"Language-Team: Italiano <it@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+
+#: deps/livesettings/models.py:107 deps/livesettings/models.py:153
+msgid "Site"
+msgstr "Sito"
+
+#: deps/livesettings/values.py:80
+msgid "Main"
+msgstr ""
+
+#: deps/livesettings/values.py:141
+msgid "Base Settings"
+msgstr "Impostazioni base"
+
+#: deps/livesettings/values.py:257 deps/livesettings/values.py:291
+msgid "Default value: "
+msgstr "Valore di default: "
+
+#: deps/livesettings/values.py:259
+#, python-format
+msgid "Default value: %s"
+msgstr "Valore di default:%s"
+
+#: deps/livesettings/values.py:765
+#, python-format
+msgid "Allowed image file types are %(types)s"
+msgstr ""
+
+#~ msgid "Home"
+#~ msgstr "Pagina iniziale"
+
+#~ msgid "Default value: \"\""
+#~ msgstr "Valore di default: \"\""
+
+# translated = "Extra di spedizione"
+#~ msgid "Documentation"
+#~ msgstr "Documentazione"
+
+#~ msgid "Change password"
+#~ msgstr "Cambia Password"
+
+#~ msgid "Log out"
+#~ msgstr "Esci"
+
+#~ msgid "Edit Group Settings"
+#~ msgstr "Modifica le impostazioni del Gruppo"
+
+# translated = ""
+#~ msgid "Please correct the error below."
+#~ msgid_plural "Please correct the errors below."
+#~ msgstr[0] "Correggi l'errore indicato di seguito."
+#~ msgstr[1] "Correggi gli errori indicati di seguito."
+
+# translated = "Modificare le impostazioni di gruppo"
+#~ msgid "Settings included in %(name)s."
+#~ msgstr "Impostazioni incluse in %(name)s."
+
+# translated = "Impostazioni incluse in% (nome) s."
+#~ msgid "You don't have permission to edit values."
+#~ msgstr "Non hai il permesso di modificare questi valori."
+
+# translated = "Non avete il permesso di modificare i valori."
+#~ msgid "Edit Site Settings"
+#~ msgstr "Modifica le impostazioni del sito"
+
+# translated = "Modifica impostazioni sito"
+#~ msgid "Group settings: %(name)s"
+#~ msgstr "Impostazioni di gruppo: %(name)s"
+
+#~ msgid "Uncollapse all"
+#~ msgstr "Espandi tutti"
+
+#~ msgid "Sites"
+#~ msgstr "Siti"

@@ -1,0 +1,54 @@
+<h2>
+    {% if answers %}
+        {{ settings.WORDS_YOUR_ANSWER|escape }}
+    {% else %}
+        {{ settings.WORDS_BE_THE_FIRST_TO_ANSWER_THIS_QUESTION|escape }}
+    {% endif %}
+</h2>
+<p class="message">
+{% if request.user.is_anonymous() %}
+    {{ settings.WORDS_INSTRUCTION_TO_POST_ANONYMOUSLY|safe }}
+{% elif request.user==question.author  %}
+    {{ settings.WORDS_INSTRUCTION_TO_ANSWER_OWN_QUESTION|safe }}
+{% endif %}
+    {{ settings.WORDS_INSTRUCTION_TO_GIVE_ANSWER|safe }}
+</p>
+<div class="folded-editor" tabindex="6">
+    <p class="js-folded-editor-trigger"><a>{{ settings.WORDS_ADD_ANSWER|escape }}</a></p>
+    <div class="editor-proper">
+        <form id="fmanswer"
+            class="js-answer-form"
+            action="{% url answer question.id %}"
+            method="post"
+            data-validated-fields="text"
+            data-text-validator="askbot.validators.answerValidator"
+            >{% csrf_token %}
+            <div class="js-error js-text-error"></div>
+            {% set draft_answer=answer.text.value() %}
+            <div class="form-group editor-placeholder"
+                {% if draft_answer %}data-draft-answer="{{ draft_answer|escape }}"{% endif %}>
+            </div>
+            <div class="answer-options">
+                {% if settings.WIKI_ON %}
+                    {{ macros.checkbox_in_div(answer.wiki) }}
+                {% endif %}
+                {% if settings.GROUPS_ENABLED and 
+                    request.user.is_authenticated() and 
+                    request.user.can_make_group_private_posts()
+                %}
+                    {{ macros.checkbox_in_div(answer.post_privately) }}
+                {% endif %}
+                {% set post_form=answer %}
+                {% include "widgets/proxy_author_fields.html" %}
+            </div>
+            {% if answer.recaptcha %}
+                <div>{{ macros.form_field_with_errors(answer.recaptcha) }}</div>
+                <div class="clearfix"></div>
+            {% endif %}
+            <input id="add-answer-btn" type="submit" class="submit"/>
+            <script type="text/javascript">
+                askbot['functions']['renderAddAnswerButton']();
+            </script>
+        </form>
+    </div>
+</div>

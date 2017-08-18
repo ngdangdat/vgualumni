@@ -1,0 +1,1 @@
+{% trans %}Link to unsubscribe from {{ site_name }}{% endtrans %}

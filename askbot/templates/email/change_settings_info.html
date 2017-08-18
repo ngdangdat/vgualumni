@@ -1,0 +1,20 @@
+<p style="font-size:10px; font-style:italic;">
+{% if hasattr(recipient_user, 'invited_outside_moderator') %}
+    {% set app_url=settings.APP_URL %}
+    {% set app_name=settings.APP_SHORT_NAME %}
+    {% trans %}You have received this message because you've been invited to join <a href="{{ app_url }}">{{ app_name }}</a> as a moderator.{% endtrans %}
+    {% trans %}If you believe that this message was sent in an error, please email about it the forum administrator at <a href="mailto:{{ admin_email }}">{{ admin_email }}</a>.{% endtrans %}
+{% else %}
+    {% set url = recipient_user.get_subscriptions_url()|escape %}
+    {% if is_multilingual %}
+        {% trans %}To change frequency, language and content of these alerts, please visit <a href="{{ url }}">your user profile</a>.{% endtrans %}
+    {% else %}
+        {% trans %}To change frequency and content of these alerts, please visit <a href="{{ url }}">your user profile</a>.{% endtrans %}
+    {% endif %}
+    <br/>
+    {% set unsubscribe_url = recipient_user.get_unsubscribe_url()|escape %}
+    {% trans %}To unsubscribe, visit <a href="{{ unsubscribe_url }}">this page</a>{% endtrans %}
+    <br/>
+    {% trans %}If you believe that this message was sent in an error, please email about it the forum administrator at <a href="mailto:{{ admin_email }}">{{ admin_email }}</a>.{% endtrans %}
+{% endif %}
+</p>

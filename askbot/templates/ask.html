@@ -1,0 +1,96 @@
+{% extends "two_column_body.html" %}
+{% import "macros.html" as macros %}
+<!-- template ask.html -->
+{% block title %}{% spaceless %}{% trans %}Ask Your Question{% endtrans %}{% endspaceless %}{% endblock %}
+{% block forestyle %}
+    <link rel="stylesheet" type="text/css" href="{{"/wmd/wmd.css"|media}}" />
+{% endblock %}
+{# main contents of ask form is in the template input_bar #}
+{% block sidebar %}
+    {% if settings.EDITOR_TYPE == 'markdown' %}
+        {% include "/widgets/markdown_help.html" %}
+    {% endif %}
+{% endblock %}
+{% block content %}
+    <div class="question-instructions">
+        {% include "widgets/question_edit_tips.html" %}
+    </div>
+    {% include "widgets/ask_form.html" %}
+{% endblock %}
+{% block endjs %}
+    {% compress js %}
+    <script type="text/javascript" src="{{ '/jslib/editor.js'|media }}"></script>
+    <script type="text/javascript" src="{{ '/jslib/jquery.validate.js'|media }}"></script>
+    <script type="text/javascript" src="{{ '/jslib/prettify.js'|media }}"></script>
+    <script type="text/javascript" src="{{ '/js/utils/toggle.js'|media }}"></script>
+    <script type="text/javascript" src="{{ '/js/utils/expander_toggle.js'|media }}"></script>
+    <script type="text/javascript" src="{{ '/js/post.js'|media }}"></script>
+    <script type="text/javascript" src="{{ '/js/editors/folded_editor.js'|media }}"></script>
+    <script type="text/javascript" src="{{ '/js/forms/form.js'|media }}"></script>
+    <script type="text/javascript" src="{{ '/js/forms/ask_form.js'|media }}"></script>
+    {% endcompress %}
+    {% if settings.EDITOR_TYPE == 'markdown' %}
+        {% include "meta/markdown_javascript.html" %}
+    {% elif settings.EDITOR_TYPE == 'tinymce' and editor_is_folded %}
+        {# if unfolded, this is loaded by the form media #}
+        {% include "editors/tinymce_scripts.html" %}
+    {% endif %}
+    {% include "meta/editor_data.html" %}
+    {% if mandatory_tags %}
+        {% include "meta/mandatory_tags_js.html" %}
+    {% endif %}
+    {% if settings.TAG_SOURCE == 'category-tree' %}
+        {% include "meta/category_tree_js.html" %}
+    {% endif %}
+    <script type='text/javascript'>
+        askbot['urls']['saveDraftQuestion'] = '{% url save_draft_question %}';
+        askbot['messages']['userNamePrompt'] = '{% trans %}User name:{% endtrans %}';
+        (function() {
+            var form = $('.js-ask-form');
+            if (form.length == 1) {
+                var askForm = new AskForm();
+                askForm.decorate(form);
+            }
+            
+        })();
+        $(document).ready(function(){
+            //set current module button style
+            $('#editor').TextAreaResizer();
+            //highlight code synctax when editor has new text
+            $("#editor").typeWatch({highlight: false, wait: 3000,
+                             captureLength: 5, callback: lanai.highlightSyntax});
+
+            //toggle preview of editor
+            //todo remove copy-paste
+            var display = true;
+            var txt = "[{% trans %}hide preview{% endtrans %}]";
+            $('#pre-collapse').text(txt);
+            $('#pre-collapse').bind('click', function(){
+                txt = display ? "[{% trans %}show preview{% endtrans %}]" : "[{% trans %}hide preview{% endtrans %}]";
+                display = !display;
+                $('#previewer').toggle();
+                $('#pre-collapse').text(txt);
+            });
+            //Tags autocomplete
+
+            {{ macros.tag_autocomplete_js(id = '#id_tags') }}
+
+            lanai.highlightSyntax();
+
+            if (askbot['data']['userIsAuthenticated']) {
+                var draftHandler = new DraftQuestion();
+                draftHandler.decorate($('body'));
+                window.onbeforeunload = function() {
+                    var saveHandler = draftHandler.getSaveHandler();
+                    saveHandler(true);
+                    //var msg = gettext("%s, we've saved your draft, but...");
+                    //return interpolate(msg, [askbot['data']['userName']]);
+                };
+            }
+        });
+    </script>
+{% endblock %}
+{% block js_templates %}
+    {{ macros.tag_widget('none', deletable=True) }}
+{% endblock %}
+<!-- end template ask.html -->

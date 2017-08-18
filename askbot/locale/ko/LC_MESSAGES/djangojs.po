@@ -1,0 +1,745 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# EunMiLee <16thetower@gmail.com>, 2012
+# Ian Y. Choi <ianyrchoi@gmail.com>, 2015-2016
+# SJ Hong, 2016
+# Sungjin Kang <potopro@gmail.com>, 2013
+# Sungjin Kang <potopro@gmail.com>, 2014
+# Yong Choi <sk8er.choi@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: askbot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-03 09:49-0600\n"
+"PO-Revision-Date: 2017-03-03 16:06+0000\n"
+"Last-Translator: evgeny <evgeny.fadeev@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/askbot/askbot/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: media/js/group_messaging.js:132
+msgid "Type a message"
+msgstr "메시지 입력"
+
+#: media/js/group_messaging.js:141
+msgid "Add a recipient"
+msgstr "수신자 추가"
+
+#: media/js/group_messaging.js:171
+msgid "message sent"
+msgstr "메시지가 발송됨"
+
+#: media/js/group_messaging.js:187
+msgid ""
+"Did you mean to send your message to muliple users? Use comma instead of "
+"whitespaces"
+msgstr "메시지를 여러 사용자에게 보내는 것을 의미합니까? 공백 대신 쉼표를 사용해주세요"
+
+#: media/js/group_messaging.js:191
+msgid "user {{str}} does not exist"
+msgid_plural "users {{str}} do not exist"
+msgstr[0] "사용자 {{str}} 가 없습니다."
+
+#: media/js/group_messaging.js:198
+msgid "cannot send message to yourself"
+msgstr "자신에게 메시지를 보낼 수 없습니다."
+
+#: media/js/live_search.js:198
+msgid "To see search results, 2 or more characters may be required"
+msgstr "검색 결과를 확인하기 위해서는, 2개 이상의 문자가 필요합니다."
+
+#: media/js/live_search.js:220
+msgid "Ask Your Question"
+msgstr "귀하의 의문점을 질문하세요"
+
+#: media/js/live_search.js:301
+msgid "Sorry, this tag does not exist"
+msgid_plural "Sorry, these tags do not exist"
+msgstr[0] "죄송합니다, 그 tag가 존재하지 않습니다."
+
+#: media/js/live_search.js:315
+msgid "Search or ask your question"
+msgstr ""
+
+#: media/js/post.js:28
+msgid "loading..."
+msgstr "로딩중.."
+
+#: media/js/post.js:137 media/js/post.js.c:176 media/js/post.js.c:229
+#: media/js/post.js:253
+msgid "enter > %(length)s character"
+msgid_plural "enter > %(length)s characters"
+msgstr[0] ""
+
+#: media/js/post.js:155 media/js/post.js.c:218
+#, c-format
+msgid "details must have > %s character"
+msgid_plural "details must have > %s characters"
+msgstr[0] "적어도 %s 글자 이상으로 입력을 해주십시오."
+
+#: media/js/post.js:209 media/js/post.js.c:1457
+msgid "tags cannot be empty"
+msgstr "적어도 하나의 태그를 입력하십시오."
+
+#: media/js/post.js:215
+msgid "details are required"
+msgstr "details이 필요합니다."
+
+#: media/js/post.js:226
+msgid "enter your question"
+msgstr "질문을 입력해주세요."
+
+#: media/js/post.js:250
+msgid "content cannot be empty"
+msgstr "적어도 하나의 태그를 입력하십시오."
+
+#: media/js/post.js:311
+msgid "Back to the question"
+msgstr "질문으로 돌아가기"
+
+#: media/js/post.js:382 media/js/post.js.c:426 media/js/post.js.c:512
+msgid "Load preview"
+msgstr "미리보기 불러오기"
+
+#: media/js/post.js:420
+msgid "Merge"
+msgstr "머지"
+
+#: media/js/post.js:511 media/js/utils/modal_dialog.js:9
+#: media/js/utils/text_property_editor.js:48
+msgid "Cancel"
+msgstr "취소"
+
+#: media/js/post.js:561
+msgid "draft saved..."
+msgstr "초안 저장..."
+
+#: media/js/post.js:781
+#, c-format
+msgid "%s follower"
+msgid_plural "%s followers"
+msgstr[0] "%s 팔로워들"
+
+#: media/js/post.js:819
+msgid "insufficient privilege"
+msgstr "해당 권한이 없습니다"
+
+#: media/js/post.js:821 media/js/post.js.c:1606
+msgid "please login"
+msgstr "로그인을 해주세요"
+
+#: media/js/post.js:824
+msgid "anonymous users cannot subscribe to questions"
+msgstr "익명의 사용자는 질문을 구독하실 수 없습니다"
+
+#: media/js/post.js:825 media/js/post.js.c:1616
+msgid "anonymous users cannot vote"
+msgstr "익명의 사용자는 투표하실 수 없습니다"
+
+#: media/js/post.js:827
+msgid "anonymous users cannot flag offensive posts"
+msgstr "익명의 사용자는 부적합한 게시물을 신고할 수 없습니다"
+
+#: media/js/post.js:828
+msgid "confirm delete"
+msgstr "이 글을 삭제 하시겠습니까?"
+
+#: media/js/post.js:829
+msgid "anonymous users cannot delete/undelete"
+msgstr "익명의 사용자는 글을 삭제 또는 삭제 취소할 수 없습니다"
+
+#: media/js/post.js:830
+msgid "post recovered"
+msgstr "글이 복원되었습니다!"
+
+#: media/js/post.js:831
+msgid "post deleted"
+msgstr "글이 삭제되었습니다"
+
+#: media/js/post.js:1047
+msgid "sorry, you cannot %(accept_own_answer)s"
+msgstr "죄송합니다. %(accept_own_answer)s 할 수 없습니다"
+
+#: media/js/post.js:1101
+msgid "remove flag"
+msgstr "플래그를 제거"
+
+#: media/js/post.js:1135 media/js/post.js.c:1166
+msgid "flag offensive"
+msgstr "이 글은 욕설, 광고, 스팸, 악의적인 내용이 포함되어 있습니까?"
+
+#: media/js/post.js:1191 media/js/post.js.c:1687
+msgid "undelete"
+msgstr "삭제 취소"
+
+#: media/js/post.js:1195 media/js/post.js.c:1691
+msgid "delete"
+msgstr "삭제"
+
+#: media/js/post.js:1397 media/js/post.js.c:1635
+msgid "sorry, something is not right here"
+msgstr "죄송합니다. 뭔가 올바르지 않습니다."
+
+#: media/js/post.js:1865
+msgid "Preview: (hide)"
+msgstr "미리보기: (숨기기)"
+
+#: media/js/post.js:1866
+msgid "Show preview"
+msgstr "미리보기"
+
+#: media/js/post.js:2283
+msgid "add comment"
+msgstr "댓글 추가"
+
+#: media/js/post.js:2288
+msgid "save comment"
+msgstr "댓글 저장"
+
+#: media/js/post.js:2332
+#, c-format
+msgid "enter at least %s characters"
+msgstr "적어도 %s 글자 이상으로 입력을 해주십시오."
+
+#: media/js/post.js:2334
+#, c-format
+msgid "enter at least %s more characters"
+msgstr "적어도 %s 글자 이상으로 입력을 해주십시오."
+
+#: media/js/post.js:2346
+#, c-format
+msgid "%s characters left"
+msgstr "적어도 %s 글자 이상으로 입력을 해주십시오."
+
+#: media/js/post.js:2348
+msgid "maximum comment length reached"
+msgstr "최대 답변 길이에 도달했습니다"
+
+#: media/js/post.js:2451 media/js/post.js.c:3370 media/js/post.js.c:4921
+#: media/js/user/group_adder_widget.js:17 media/js/utils/editable.js:319
+msgid "cancel"
+msgstr "취소"
+
+#: media/js/post.js:2466
+msgid "minor edit (don't send alerts)"
+msgstr "사소한 수정(알림을 보내지 않음)"
+
+#: media/js/post.js:2498
+msgid "Are you sure you don't want to post this comment?"
+msgstr "이 post에 댓글을 삭제 하실 건가요?"
+
+#: media/js/post.js:2543 media/jslib/timeago.js:137
+msgid "just now"
+msgstr "지금 당장"
+
+#: media/js/post.js:2620
+msgid "delete this comment"
+msgstr "이 댓글 삭제"
+
+#: media/js/post.js:2918
+msgid "confirm delete comment"
+msgstr "정말 이 댓글을 삭제 하시겠습니까?"
+
+#: media/js/post.js:3087
+msgid "please sign in or register to post comments"
+msgstr "sign in 또는 가입을 하셔야 댓글을 남기실 수 있습니다."
+
+#: media/js/post.js:3364 media/js/post.js.c:4185 media/js/post.js.c:4378
+#: media/js/utils/editable.js:314
+msgid "save"
+msgstr "저장"
+
+#: media/js/post.js:3489
+msgid "Enter the logo url or upload an image"
+msgstr "logo url을 입력하시거나 이미지를 업로드 해주십시오."
+
+#: media/js/post.js:3515
+msgid "Do you really want to remove the image?"
+msgstr "이미지를 삭제하길 원하십니까?"
+
+#: media/js/post.js:3631
+msgid "change logo"
+msgstr "logo 변경"
+
+#: media/js/post.js:3632
+msgid "add logo"
+msgstr "logo 추가"
+
+#: media/js/post.js:3736
+#, c-format
+msgid "tag \"%s\" was already added, no need to repeat (press \"escape\" to delete)"
+msgstr "tag \"%s\"가 이미 추가되어 있습니다, 반복하여 입력하실 필요가 없습니다.(\"escape\"를 누르시면 삭제됩니다.)"
+
+#: media/js/post.js:3745
+#, c-format
+msgid "a maximum of %s tag is allowed"
+msgid_plural "a maximum of %s tags are allowed"
+msgstr[0] "%s tag에 대한 최대 허용."
+
+#: media/js/post.js:4114
+msgid "Delete category?"
+msgstr "카테고리 삭제 하시겠습니까?"
+
+#: media/js/post.js:4204 media/js/utils/edit_link.js:15
+msgid "edit"
+msgstr "수정"
+
+#: media/js/post.js:4291
+msgid "category name cannot be empty"
+msgstr "최소 하나의 tag를 입력해 주십시오."
+
+#: media/js/post.js:4328
+msgid "already exists at the current level!"
+msgstr "이미 현재 레벨이 존재합니다!"
+
+#: media/js/post.js:4364
+msgid "add category"
+msgstr "카테고리 추가"
+
+#: media/js/post.js:4917
+msgid "save tags"
+msgstr "tags 저장"
+
+#: media/js/post.js:4949 media/js/editors/folded_editor.js:38
+msgid "Sorry, you have only read access"
+msgstr "죄송합니다. 읽기만 가능합니다."
+
+#: media/js/post.js:5022
+msgid "Group name:"
+msgstr "그룹 이름:"
+
+#: media/js/post.js:5048
+msgid "Shared with the following users:"
+msgstr "following 사용자들에게 공유:"
+
+#: media/js/post.js:5054
+msgid "Shared with the following groups:"
+msgstr "following 그룹에게 공유:"
+
+#: media/js/tag_selector.js:14
+msgid "Tag \"<span></span>\" matches:"
+msgstr "\"<span></span>\" 태그 맞춤:"
+
+#: media/js/tag_selector.js:91
+#, c-format
+msgid "and %s more, not shown..."
+msgstr "그리고 %s 이상은 보여주지 않습니다..."
+
+#: media/js/user.js:50
+msgid "Please <a href=\"%(signin_url)s\">signin</a> to follow %(username)s"
+msgstr "%(username)s님을 팔로우하시려면 <a href=\"%(signin_url)s\">로그인</a>을 해주세요"
+
+#: media/js/utils.js:206
+msgid "must be shorter than %(max_chars)s character"
+msgid_plural "must be shorter than %(max_chars)s characters"
+msgstr[0] "%(max_chars)s 글자보다 작아야 합니다."
+
+#: media/js/utils.js:274
+msgid "and"
+msgstr "그리고"
+
+#: media/js/utils.js:292
+msgid "click to close"
+msgstr "close를 선택"
+
+#: media/js/jquery-openid/jquery.authenticator.js:73
+#, c-format
+msgid "Are you sure you want to remove your %s login?"
+msgstr "%s 로그인을 정말로 제거하시겠습니까?"
+
+#: media/js/jquery-openid/jquery.authenticator.js:90
+msgid "Please add one or more login methods."
+msgstr "한 가지 또는 그 이상의 로그인 방법을 추가해주세요."
+
+#: media/js/jquery-openid/jquery.authenticator.js:93
+msgid ""
+"You don't have a method to log in right now, please add one or more by "
+"clicking any of the icons below."
+msgstr "아래의 아이콘 중 하나를 클릭하여 로그인 방법을 지정하신 후 로그인해주세요."
+
+#: media/js/jquery-openid/jquery.authenticator.js:147
+msgid "enter username"
+msgstr "사용자 이름을 입력해주세요"
+
+#: media/js/jquery-openid/jquery.authenticator.js:149
+msgid "enter username or email"
+msgstr "사용자 이름 또는 이메일을 입력해 주세요"
+
+#: media/js/jquery-openid/jquery.authenticator.js:158
+msgid "enter password"
+msgstr "비밀번호를 입력해주세요"
+
+#: media/js/jquery-openid/jquery.authenticator.js:180
+msgid "passwords do not match"
+msgstr "패스워드가 일치하지 않습니다"
+
+#: media/js/jquery-openid/jquery.authenticator.js:206
+msgid "Show/change current login methods"
+msgstr "현재의 로그인 방법을 표시/변경"
+
+#: media/js/jquery-openid/jquery.authenticator.js:262
+#, c-format
+msgid "Please enter your %s, then proceed"
+msgstr "%s를 입력 후 진행"
+
+#: media/js/jquery-openid/jquery.authenticator.js:264
+msgid "Connect your %(provider_name)s account to %(site)s"
+msgstr "%(provider_name)s 계정을 %(site)s에 연결"
+
+#: media/js/jquery-openid/jquery.authenticator.js:362
+#, c-format
+msgid "Change your %s password"
+msgstr "%s 패스워드를 변경"
+
+#: media/js/jquery-openid/jquery.authenticator.js:363
+msgid "Change password"
+msgstr "패스워드 변경"
+
+#: media/js/jquery-openid/jquery.authenticator.js:365
+#, c-format
+msgid "Create a password for %s"
+msgstr "%s 패스워드를 생성"
+
+#: media/js/jquery-openid/jquery.authenticator.js:366
+msgid "Create password"
+msgstr "패스워드 생성"
+
+#: media/js/jquery-openid/jquery.authenticator.js:377
+msgid "Create a password-protected account"
+msgstr "일반 계정을 생성"
+
+#: media/js/user/group_adder_widget.js:12
+msgid "add group"
+msgstr "그룹 추가"
+
+#: media/js/user/group_adder_widget.js:92
+msgid "add"
+msgstr "추가"
+
+#: media/js/user/manage_reject_reasons_dialog.js:90
+msgid "Looks there are some things to fix:"
+msgstr "해결하기 위한 어떤 것들:"
+
+#: media/js/user/manage_reject_reasons_dialog.js:158
+msgid "Please provide description."
+msgstr "설명을 작성하십시오."
+
+#: media/js/user/manage_reject_reasons_dialog.js:161
+msgid "Please provide details."
+msgstr "세부 사항을 작성하십시오."
+
+#: media/js/user/manage_reject_reasons_dialog.js:248
+msgid "A reason must be selected to delete one."
+msgstr "하나를 삭제하려면 선택하여야 합니다."
+
+#: media/js/user/post_moderation_controls.js:77
+#: media/js/user/response_notifs.js:30 media/js/user/response_notifs.js.c:107
+msgid "Please select at least one item"
+msgstr "적어도 하나의 아이템을 선택 해야 합니다."
+
+#: media/js/user/post_moderation_controls.js:113
+msgid "Load more items."
+msgstr "항목 더 불러오기."
+
+#: media/js/utils/comment_convert_link.js:26
+msgid "convert to answer"
+msgstr "답변 변경"
+
+#: media/js/utils/edit_link.js:14
+msgid "click to edit this comment"
+msgstr "클릭하여 이 댓글 수정"
+
+#: media/js/utils/file_upload_dialog.js:138
+#, c-format
+msgid "Uploaded file: %s"
+msgstr "파일 업로드: %s"
+
+#: media/js/utils/file_upload_dialog.js:152
+msgid "Choose a different file"
+msgstr "다른 파일 선택"
+
+#: media/js/utils/file_upload_dialog.js:154
+msgid "Choose a different image"
+msgstr "다른 이미지 선택"
+
+#: media/js/utils/file_upload_dialog.js:168
+msgid "Oops, looks like we had an error. Sorry."
+msgstr "이런! 오류가 발생했네요. 죄송합니다."
+
+#: media/js/utils/file_upload_dialog.js:228
+msgid "Choose a file to insert"
+msgstr "삽입할 파일 선택"
+
+#: media/js/utils/file_upload_dialog.js:230
+msgid "Choose an image to insert"
+msgstr "삽입할 이미지 선택"
+
+#: media/js/utils/file_upload_dialog.js:243
+msgid "Allowed file types are:"
+msgstr "파일 형식 허용:"
+
+#: media/js/utils/file_upload_dialog.js:249
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:35
+msgid "Or paste file url here"
+msgstr "파일 url을 여기에 붙여넣기 하십시오."
+
+#: media/js/utils/group_dropdown.js:18
+msgid "group name"
+msgstr "그룹 이름"
+
+#: media/js/utils/group_dropdown.js:26
+msgid "add new group"
+msgstr "새로운 그룹 추가"
+
+#: media/js/utils/group_dropdown.js:118
+msgid "Group %(name)s already exists. Group names are case-insensitive."
+msgstr "그룹 %(name)s이 존재합니다. 그룹 이름은 대소문자 구분합니다."
+
+#: media/js/utils/modal_dialog.js:7
+msgid "Ok"
+msgstr "Ok"
+
+#: media/js/utils/paginator.js:115
+#, c-format
+msgid "page %s"
+msgstr "%s 페이지"
+
+#: media/js/utils/tag.js:122
+#, c-format
+msgid "see questions tagged '%s'"
+msgstr "'%s'로 태그된 질문들 보기"
+
+#: media/js/utils/text_property_editor.js:47
+msgid "Save"
+msgstr "저장"
+
+#: media/js/utils/text_property_editor.js:119
+msgid "saved"
+msgstr "저장"
+
+#: media/js/utils/toggle.js:88 media/js/utils/toggle.js.c:103
+msgid "enabled"
+msgstr "활성화"
+
+#: media/js/utils/toggle.js:89 media/js/utils/toggle.js.c:104
+msgid "disabled"
+msgstr "비활성화"
+
+#: media/jslib/timeago.js:90
+msgid "Jan"
+msgstr "1월"
+
+#: media/jslib/timeago.js:91
+msgid "Feb"
+msgstr "2월"
+
+#: media/jslib/timeago.js:92
+msgid "Mar"
+msgstr "3월"
+
+#: media/jslib/timeago.js:93
+msgid "Apr"
+msgstr "4월"
+
+#: media/jslib/timeago.js:94
+msgid "May"
+msgstr "5월"
+
+#: media/jslib/timeago.js:95
+msgid "Jun"
+msgstr "6월"
+
+#: media/jslib/timeago.js:96
+msgid "Jul"
+msgstr "7월"
+
+#: media/jslib/timeago.js:97
+msgid "Aug"
+msgstr "8월"
+
+#: media/jslib/timeago.js:98
+msgid "Sep"
+msgstr "9월"
+
+#: media/jslib/timeago.js:99
+msgid "Oct"
+msgstr "10월"
+
+#: media/jslib/timeago.js:100
+msgid "Nov"
+msgstr "11월"
+
+#: media/jslib/timeago.js:101
+msgid "Dec"
+msgstr "12월"
+
+#: media/jslib/timeago.js:113
+msgid "2 days ago"
+msgstr "이틀 전"
+
+#: media/jslib/timeago.js:115
+msgid "yesterday"
+msgstr "어제"
+
+#: media/jslib/timeago.js:120
+#, c-format
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "%s 시간 전"
+
+#: media/jslib/timeago.js:130
+#, c-format
+msgid "%s min ago"
+msgid_plural "%s mins ago"
+msgstr[0] "%s 분 전"
+
+#: media/tinymce/plugins/askbot_attachment/editor_plugin.js:71
+msgid "Insert a file"
+msgstr "파일 삽입"
+
+#: media/tinymce/plugins/askbot_imageuploader/editor_plugin.js:70
+msgid "Insert image"
+msgstr "이미지에 대한 URL를 입력해주세요. 예를들어, http://www.example.com/image.jpg 또는 이미지 파일을 올려주세요."
+
+#: media/wmd/wmd.js:31
+msgid "bold"
+msgstr "굵게"
+
+#: media/wmd/wmd.js:32
+msgid "italic"
+msgstr "기울임꼴"
+
+#: media/wmd/wmd.js:33
+msgid "link"
+msgstr "링크"
+
+#: media/wmd/wmd.js:34
+msgid "quote"
+msgstr "인용"
+
+#: media/wmd/wmd.js:35
+msgid "preformatted text"
+msgstr "텍스트 서식이 설정되어 있습니다."
+
+#: media/wmd/wmd.js:36
+msgid "image"
+msgstr "이미지"
+
+#: media/wmd/wmd.js:37
+msgid "attachment"
+msgstr "첨부파일"
+
+#: media/wmd/wmd.js:38
+msgid "numbered list"
+msgstr "번호 목록"
+
+#: media/wmd/wmd.js:39
+msgid "bulleted list"
+msgstr "불릿 목록"
+
+#: media/wmd/wmd.js:40
+msgid "heading"
+msgstr "머리글"
+
+#: media/wmd/wmd.js:41
+msgid "horizontal bar"
+msgstr "수평 막대"
+
+#: media/wmd/wmd.js:42
+msgid "undo"
+msgstr "실행 취소"
+
+#: media/wmd/wmd.js:43 media/wmd/wmd.js.c:1171
+msgid "redo"
+msgstr "다시 실행"
+
+#: media/wmd/wmd.js:54
+msgid "enter image url"
+msgstr "URL이나 이미지를 입력해주세요.\n예: http://www.example.com/image.jpg 입력 또는 이미지 파일 업로드"
+
+#: media/wmd/wmd.js:55
+msgid "enter url"
+msgstr "웹사이트 주소를 입력해주세요.\n예: http://www.example.com \"웹 페이지 명\""
+
+#: media/wmd/wmd.js:56
+msgid "upload file attachment"
+msgstr "업로드할 파일을 선택해주세요"
+
+#: media/wmd/wmd.js:1686
+msgid "strong text"
+msgstr "텍스트 강조"
+
+#: media/wmd/wmd.js:1690
+msgid "emphasized text"
+msgstr "강조된 텍스트"
+
+#: media/wmd/wmd.js:1844
+msgid "image description"
+msgstr "이미지 설명"
+
+#: media/wmd/wmd.js:1847
+msgid "file name"
+msgstr "파일 이름"
+
+#: media/wmd/wmd.js:1851
+msgid "link text"
+msgstr "링크 텍스트"
+
+#: media/wmd/wmd.js:2284 media/wmd/wmd.js.c:2304
+msgid "enter code here"
+msgstr "코드를 여기에 입력해주세요"
+
+#: media/wmd/wmd.js:2398
+msgid "List item"
+msgstr "항목 목록"
+
+#: media/wmd/wmd.js:2430
+msgid "Heading"
+msgstr "머리글"
+
+#~ msgid "%(question)s must have > %(length)s character"
+#~ msgid_plural "%(question)s must have > %(length)s characters"
+#~ msgstr[0] "5885b33f80dc5ea8fa5bdbd8e5e02d53_pl_0"
+
+#~ msgid "anonymous users cannot %(follow_questions)s"
+#~ msgstr "sorry, anonymous users cannot vote "
+
+#~ msgid "Follow"
+#~ msgstr "Follow"
+
+#~ msgid "<div class=\"following\">Following</div><div class=\"unfollow\">Unfollow</div>"
+#~ msgstr "<div>Following</div><div class=\"unfollow\">Unfollow</div>"
+
+#~ msgid "cannot pick own answer as best"
+#~ msgstr "sorry, you cannot accept your own answer"
+
+#~ msgid "please confirm offensive"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "please confirm removal of offensive flag"
+#~ msgstr ""
+#~ "are you sure this post is offensive, contains spam, advertising, malicious "
+#~ "remarks, etc.?"
+
+#~ msgid "Post deleted"
+#~ msgstr "your post has been deleted"
+
+#~ msgid "Post approved"
+#~ msgstr "your post is now restored!"
+
+#~ msgid "post a comment"
+#~ msgstr "save comment"
+
+#~ msgid "%s content minchars"
+#~ msgstr "please enter more than %s characters"
+
+#~ msgid "%s title minchars"
+#~ msgstr "please enter at least %s characters"
